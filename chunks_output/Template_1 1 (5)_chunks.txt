@@ -1,0 +1,1080 @@
+--- CHUNK 1 ---
+Artifial Intelligence in Medical Imaging: A 
+Systematic Literature review using PRISMA 
+ 
+ 
+ 
+ 
+ 
+Nugumanov Alikhan 
+Group:CS-2306 
+Course:Research Methods and 
+Techologies 
+Instructor:Aliya Kanatova 
+ 
+ 
+ 
+ 
+ 
+ 
+Abstract— Artificial Intelligence (AI) 
+has rapidly emerged as a transformative 
+force in medical imaging, offering 
+advanced capabilities for image 
+acquisition, interpretation, and 
+diagnosis. This research proposal 
+presents a systematic literature review 
+following the Preferred Reporting Items 
+for Systematic Review s and Meta -
+Analyses (PRISMA) framework, aiming 
+to synthesize current evidence on the 
+applications, performance, and 
+challenges of AI in medical imaging. The 
+study focuses on machine learning and 
+deep learning techniques applied to 
+radiology, pathology, and  other image -
+based diagnostics. Through a structured 
+search of major databases such as 
+PubMed, IEEE Xplore, and Scopus, 
+relevant peer -reviewed articles
+
+--- CHUNK 2 ---
+radiology, pathology, and  other image -
+based diagnostics. Through a structured 
+search of major databases such as 
+PubMed, IEEE Xplore, and Scopus, 
+relevant peer -reviewed articles 
+published between 2015 and 2025 will be 
+identified, screened, and analyzed 
+according to PRISMA guideline s. The 
+review seeks to classify AI applications 
+by modality, diagnostic accuracy, and 
+clinical integration, while also 
+highlighting methodological limitations, 
+ethical concerns, and reproducibility 
+issues. Expected outcomes include a 
+comprehensive mapping of existing 
+research trends, identification of critical 
+gaps, and formulation of 
+recommendations for future studies and 
+clinical implementation. By 
+consolidating current evidence, this 
+review aims to contribute to a clearer 
+understanding of AI’s role in enhancing 
+diagnostic precision, workflow 
+efficiency, and patient outcomes within 
+the field of medical imaging. 
+Keywords— Artificial intelligence ,
+
+--- CHUNK 3 ---
+understanding of AI’s role in enhancing 
+diagnostic precision, workflow 
+efficiency, and patient outcomes within 
+the field of medical imaging. 
+Keywords— Artificial intelligence , 
+Machine Learning, ,  medical imaging,  
+radiology, image analysis 
+ 
+I. INTRODUCTION  
+ 
+I. Introduction 
+  
+Over the past decade, the integration of 
+artificial intelligence (AI) and machine 
+learning into medical imaging has become 
+one of the most dynamic and influential 
+areas in digital healthcare research. The 
+growing availability of large -scale medical 
+datasets and the rapid advancement of deep 
+learning algorithms have enabled highly 
+accurate analysis and interpretation of 
+complex medical images. Recent studies 
+highlight the potential of AI systems to 
+assist clinicians in the early detection, 
+classification, and management of diseases 
+such as lung cancer and stroke. 
+  
+For example, innovative frameworks 
+using self -improving optimization 
+algorithms and deep learning models have
+
+--- CHUNK 4 ---
+classification, and management of diseases 
+such as lung cancer and stroke. 
+  
+For example, innovative frameworks 
+using self -improving optimization 
+algorithms and deep learning models have 
+demonstrated remarkable precision in 
+identifying and classifying lung cancer from 
+CT scans, significantly reducing human 
+   
+ 
+   
+ 
+error and diagnostic time (IEEE, 2024). 
+Similarly, the development of content-based 
+image retrieval (CBIR) systems and 
+machine learning -driven categorization 
+methods allows more efficient organization 
+and search within large medical image 
+databases, addres sing the challenge of 
+semantic diversity across imaging 
+modalities (IEEE, 2007). In 
+neurodiagnostics, AI -enabled platforms 
+facilitate the identification of imaging 
+biomarkers (IBs) for conditions such as 
+stroke, combining automated data 
+collection, annotat ion, and analysis to 
+improve predictive modeling of clinical 
+outcomes. 
+  
+The primary beneficiaries of these
+
+--- CHUNK 5 ---
+stroke, combining automated data 
+collection, annotat ion, and analysis to 
+improve predictive modeling of clinical 
+outcomes. 
+  
+The primary beneficiaries of these 
+technological advancements include 
+radiologists, healthcare providers, and 
+researchers, who can leverage AI systems 
+for faster, more accurate, and reproducible 
+diagnostic decisions. Moreover, patients 
+benefit indirectly f rom early disease 
+detection and personalized treatment 
+strategies driven by intelligent medical 
+imaging systems. 
+  
+Despite these advancements, several 
+research gaps persist. Many models rely on 
+limited or imbalanced datasets, hindering 
+generalization across diverse clinical 
+environments. Additionally, the 
+interpretability and transparency of AI 
+decisions remain critica l challenges that 
+impact clinical trust and adoption. 
+Furthermore, the lack of standardized data -
+sharing protocols restricts large -scale 
+validation of AI models in real -world 
+settings.
+
+--- CHUNK 6 ---
+impact clinical trust and adoption. 
+Furthermore, the lack of standardized data -
+sharing protocols restricts large -scale 
+validation of AI models in real -world 
+settings. 
+  
+Statement of the Problem: 
+While artificial intelligence has 
+demonstrated high potential in improving 
+diagnostic accuracy and workflow 
+efficiency in medical imaging, the field still 
+faces significant challenges related to model 
+generalization, interpretability, and data 
+integration. Addressing these limitations is 
+essential to fully harness AI’s capabilities in 
+clinical practice and to ensure reliable, 
+ethical, and scalable implementation in 
+healthcare systems. 
+ 
+II. METHODOLOGY   
+In this study, the PRISMA (Preferred 
+Reporting Items for Systematic Reviews 
+and Meta -Analyses) methodology was 
+applied to ensure a structured, transparent, 
+and reproducible approach to reviewing the 
+literature on Artificial Intelligence in 
+Medical Imaging. The process followed six
+
+--- CHUNK 7 ---
+applied to ensure a structured, transparent, 
+and reproducible approach to reviewing the 
+literature on Artificial Intelligence in 
+Medical Imaging. The process followed six 
+systematic steps as outlined below. 
+  
+Step 1. Selection of Research Topic 
+  
+The selected topic, “Artificial 
+Intelligence in Medical Imaging”, focuses 
+on the application of machine learning and 
+deep learning algorithms to enhance 
+diagnostic accuracy, automate image 
+analysis, and support clinical decision -
+making in radiology. 
+This topic is directly related to the field of 
+computer science and healthcare 
+technology. It is narrow enough to allow 
+focused analysis on AI -driven medical 
+image processing but broad enough to cover 
+diverse imaging modalities such as CT, 
+MRI, and ultrasound. 
+  
+ 
+ 
+ 
+ 
+   
+ 
+   
+ 
+ 
+ 
+Step 2. Selection of Databases 
+  
+For the systematic literature search, three 
+reputable academic databases were 
+selected: 
+  
+• Scopus 
+• Web of Science 
+• Google Scholar
+
+--- CHUNK 8 ---
+Step 2. Selection of Databases 
+  
+For the systematic literature search, three 
+reputable academic databases were 
+selected: 
+  
+• Scopus 
+• Web of Science 
+• Google Scholar 
+  
+These databases were chosen because 
+they include peer -reviewed, high -impact 
+scientific publications and ensure 
+comprehensive coverage of the most cited 
+and influential research in artificial 
+intelligence and medical imaging. 
+  
+Step 3. Defining Search Keywords 
+  
+To ensure consistency and precision in 
+the search, the following keywords were 
+defined and applied in all databases: 
+  
+“artificial intelligence” AND “machine 
+learning” AND “deep learning” AND 
+“medical imaging” AND “radiology” 
+  
+These keywords accurately describe the 
+research domain and capture recent 
+advances in AI techniques used for medical 
+image analysis and diagnostics. Synonyms 
+such as “AI -based diagnosis” and “image 
+recognition in healthcare” were also 
+explored during the search process.
+
+--- CHUNK 9 ---
+image analysis and diagnostics. Synonyms 
+such as “AI -based diagnosis” and “image 
+recognition in healthcare” were also 
+explored during the search process. 
+Step 4. Search and Screening Process 
+  
+The systematic search was conducted 
+from February to March 2025, targeting 
+publications from 2015 to 2025. 
+All retrieved articles were exported in 
+BibTeX (.bib) format and merged using 
+Zotero reference management software to 
+organize and clean the dataset. 
+  
+The PRISMA process was implemented 
+through four key stages: 
+  
+Identification: 
+Articles were collected from all three 
+databases using the defined keywords. 
+Initial total — 8 635records. 
+ 
+ 
+ 
+  
+Screening: 
+Duplicates and irrelevant studies were 
+removed after reviewing titles and abstracts. 
+Remaining — 113 records.
+
+--- CHUNK 10 ---
+Eligibility: 
+Full-text screening was conducted to 
+verify inclusion criteria: 
+(1) AI application in medical imaging; 
+(2) quantitative results (accuracy, 
+sensitivity, specificity); 
+(3) published in peer-reviewed sources. 
+Eligible — 45 records. 
+  
+Inclusion: 
+The final dataset consisted of the 100 
+most relevant and highly cited articles 
+published within the last 10 years, 
+providing empirical results on AI-based 
+medical image analysis. 
+ 
+ Data Extraction and Analysis 
+After screening and inclusion, 25 relevant 
+peer-reviewed articles (2018 –2025) were 
+selected from Scopus, Web of Science, and 
+Google Scholar.  
+ Each study was analyzed according to 
+authorship, publication year, journal, and 
+main focus.  
+ The data extraction table below 
+summarizes the key metadata of 
+representative works. 
+1) Quantitative Trends 
+• Publication Years:  
+ The earliest works appeared in 2018, 
+with a sharp rise after 2020.  
+ Peak output was observed in 2023–
+
+--- CHUNK 11 ---
+representative works. 
+1) Quantitative Trends 
+• Publication Years:  
+ The earliest works appeared in 2018, 
+with a sharp rise after 2020.  
+ Peak output was observed in 2023–
+2024, reflecting rapid AI adoption in 
+clinical imaging. 
+• Top Journals:  
+ Radiology, Journal of Imaging, 
+Applied Sciences, British Journal of 
+Radiology, JACR. 
+• Dominant Topics: 
+o Deep learning and CNN 
+architectures 
+o Explainable AI (XAI) in 
+radiology 
+o Integration and bias challenges 
+o Comparative studies (CNN vs. 
+Vision Transformers) 
+o Cross-domain applications 
+(veterinary, MRI, oncology) 
+• Visualization Suggestion:  
+ You can present two charts: 
+o Bar chart:  Number of 
+publications per year (2018 –
+2025) 
+o Pie chart:  Topic distribution 
+(Deep Learning, XAI, Clinical 
+Implementation, Ethics/Bias, 
+Comparative Methods)
+
+--- CHUNK 12 ---
+III. RESULTS 
+TECHNOLOGICAL SHIFT FROM TRADITIONAL 
+METHODS TO DEEP LEARNING DOMINANCE 
+OF DEEP NEURAL NETWORKS: THERE HAS 
+BEEN A SHIFT FROM MACHINE LEARNING 
+WITH MANUAL FEATURE EXTRACTION TO THE 
+USE OF DEEP CONVOLUTIONAL NEURAL 
+NETWORKS (CNNS), WHICH 
+AUTOMATICALLY LEARN HIERARCHICAL 
+FEATURES FROM DATA . THIS HAS BECOME 
+THE STANDARD FOR CLASSIFICATION , 
+SEGMENTATION, AND OBJECT DETECTION 
+TASKS. 
+Emergence of New Architectures: Research 
+is actively comparing CNNs with newer 
+architectures, such as Vision Transformers 
+(ViTs), which show promising results, 
+especially in tasks requiring global context. 
+Expanding Applications: Initially focused 
+on analyzing static images (X -rays, CT 
+scans, MRIs), AI is now being applied to 
+report generation, video analysis (e.g., 
+endoscopy), and even the creation of 
+synthetic images using Generative 
+Adversarial Networks (GANs). 
+2. Shifting focus from pure diagnostics 
+to integration into clinical practice
+
+--- CHUNK 13 ---
+endoscopy), and even the creation of 
+synthetic images using Generative 
+Adversarial Networks (GANs). 
+2. Shifting focus from pure diagnostics 
+to integration into clinical practice 
+From point solutions to workflows: 
+Early work focused on creating 
+algorithms for diagnosing specific 
+diseases (e.g., COVID -19, lung 
+cancer). Current research emphasizes 
+the need to integrate AI into clinical 
+workflows to automate routine tasks 
+(annotation, pre -triage, tumor 
+volume measurement). 
+Improving efficiency, not replacing 
+physicians: AI is increasingly being 
+positioned as a "cognitive assistant" that 
+improves radiologist productivity and 
+accuracy, rather than replacing them. This 
+includes process optimization and 
+predictive analytics. 
+3. Understanding and Overcoming 
+Implementation Challenges Recent 
+studies have candidly and thoroughly 
+described the barriers to clinical 
+implementation: 
+Reproducibility and Reliability Issues: 
+Algorithms trained on data from one center
+
+--- CHUNK 14 ---
+studies have candidly and thoroughly 
+described the barriers to clinical 
+implementation: 
+Reproducibility and Reliability Issues: 
+Algorithms trained on data from one center 
+often perform poorly on data from other 
+institutions due to differences in equipment 
+and imaging protocols. 
+Shortcuts and Bias: Algorithms can learn 
+from artifacts or random features in the data 
+(e.g., image labels) rather than from actual 
+pathologies, leading to incorrect predictions 
+on new data. 
+Black Box and Trust: The uninterpretable 
+nature of complex AI models remains a 
+major obstacle to their acceptance by 
+clinicians. This has spurred a growing 
+number of studies on Explainable AI (XAI), 
+aimed at visualizing what the algorithm is 
+"looking at." 
+Data Quality and Availability: The success 
+of AI critically depends on large, well -
+labeled, and curated datasets. Much work is 
+devoted to the creation of such datasets 
+(e.g., CheXpert), labeling platforms 
+(MONAI Label), and format
+
+--- CHUNK 15 ---
+of AI critically depends on large, well -
+labeled, and curated datasets. Much work is 
+devoted to the creation of such datasets 
+(e.g., CheXpert), labeling platforms 
+(MONAI Label), and format 
+standardization (DICOM). 
+4. Expanding Horizons: From 
+Diagnostics to Predictive and 
+Integrative Medicine The Radiomics 
+Revolution: AI can identify patterns 
+in medical images (radiomics) 
+invisible to the human eye that 
+correlate with diagnosis, prognosis, 
+   
+ 
+   
+ 
+and treatment response. This 
+transforms images from a purely 
+diagnostic tool into a source of data 
+for personalized medicine. 
+Multimodality and Integration: Systems are 
+emerging that combine medical imaging 
+data with other information, such as 
+pathological sections (RAPHIA) or clinical 
+reports (GLoRIA), to provide a more 
+complete picture of the patient's condition. 
+Applications Beyond Radiology: 
+Technologies are rapidly penetrating 
+veterinary medicine, interventional 
+radiology, and drug discovery research.
+
+--- CHUNK 16 ---
+complete picture of the patient's condition. 
+Applications Beyond Radiology: 
+Technologies are rapidly penetrating 
+veterinary medicine, interventional 
+radiology, and drug discovery research. 
+5. Ecosystem Development and 
+Looking to the Future Infrastructure 
+Creation: Open platforms and 
+frameworks (e.g., MONAI, DIANA) 
+are being developed to simplify the 
+development, validation, and 
+deployment of AI models in clinics. 
+Federated learning: Considered a way to 
+train models on data from multiple 
+institutions without physically combining 
+them, which addresses issues of privacy and 
+data diversity. 
+Strategic planning: Research includes 
+SWOT analysis, discusses ethical 
+considerations, and offers roadmaps for 
+responsible and effective AI 
+implementation. 
+   
+IV. DISCUSSION 
+AI has become an essential component of 
+modern radiology research but remains 
+limited in real-world clinical deployment. 
+1) Strengths of Current Models 
+• High diagnostic accuracy
+
+--- CHUNK 17 ---
+IV. DISCUSSION 
+AI has become an essential component of 
+modern radiology research but remains 
+limited in real-world clinical deployment. 
+1) Strengths of Current Models 
+• High diagnostic accuracy 
+• Reduced reporting time 
+• Consistent and reproducible 
+measurements 
+• Potential to alleviate radiologist 
+shortages 
+2) Weaknesses / Research Gaps 
+• Lack of diverse training datasets 
+• Absence of unified evaluation 
+standards 
+• Need for explainability and trust in 
+AI decisions 
+• Data privacy challenges 
+3) Opportunities 
+• Integration of generative AI for 
+synthetic datasets 
+• Federated learning for privacy-
+preserving model training 
+• Advanced multi-modal diagnostic 
+systems 
+4) Threats / Risks 
+• Ethical concerns from biased or 
+inaccurate predictions 
+• Legal responsibility for AI-
+generated diagnoses 
+• Overdependence on automated tools 
+ 
+Conclusion 
+The field has evolved from initial 
+enthusiasm and demonstrations of 
+potential to a mature stage characterized
+
+--- CHUNK 18 ---
+generated diagnoses 
+• Overdependence on automated tools 
+ 
+Conclusion 
+The field has evolved from initial 
+enthusiasm and demonstrations of 
+potential to a mature stage characterized 
+by a deep understanding of technological 
+limitations and systemic challenges. The 
+primary focus has shifted from the creation 
+   
+ 
+   
+ 
+of pinpoint diagnostic algorithms to the 
+reliable integration of AI into clinical 
+practice, which requires addressing issues 
+of interpretability, reproducibility, data 
+bias, and the creation of an appropriate IT 
+infrastructure. AI in medical imaging is 
+becoming more than just a tool for "image 
+enhancement" but a key component of 
+future diagnostic, predictive, and 
+personalized medicine. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+   
+ 
+   
+ 
+ 
+REFERENCES 
+Redefining radiology: a review of artificial intelligence integration in medical imaging — Najjar, Reabal 
+(2023). Diagnostics 13(17):2760.
+
+--- CHUNK 19 ---
+REFERENCES 
+Redefining radiology: a review of artificial intelligence integration in medical imaging — Najjar, Reabal 
+(2023). Diagnostics 13(17):2760. 
+  
+Hybrid machine intelligence for medical image analysis — Bhattacharyya, Siddhartha; Konar, 
+Debanjan; Platos, Jan; Kar, Chinmoy; Sharma, Kalpana; others (2020). Springer. 
+  
+Deep learning and medical imaging — Klang, Eyal (2018). Journal of Thoracic Disease 10(3):1325. 
+  
+The role of artificial intelligence in medical imaging research — Tang, Xiaoli (2019). BJR|Open 
+2(1):20190031. 
+  
+Artificial intelligence technology in medical image analysis — Szilágyi, László; Kovács, Levente 
+(2024). Applied Sciences 14(5):2180. 
+  
+Artificial intelligence and machine learning for medical imaging: A technology review — Barragan-
+Montero, Ana; Javaid, Umair; …; Lee, John A. (2021). Physica Medica 83:242–256. DOI: 
+10.1016/j.ejmp.2021.04.016
+
+--- CHUNK 20 ---
+Montero, Ana; Javaid, Umair; …; Lee, John A. (2021). Physica Medica 83:242–256. DOI: 
+10.1016/j.ejmp.2021.04.016 
+  
+Artificial Intelligence in Diagnostic Radiology: Where Do We Stand, Challenges, and Opportunities — 
+Moawad, Ahmed W.; …; Elsayes, Khaled M. (2022). Journal of Computer Assisted Tomography 
+46(1):78–90. DOI: 10.1097/RCT.0000000000001247 
+  
+Advances of AI in image-based computer-aided diagnosis: A review — Yeasmin, M. N.; Al Amin, Md; 
+…; Azim, M. A. (2024). ARRAY 23. DOI: 10.1016/j.array.2024.100357 
+  
+Current Applications and Future Impact of Machine Learning in Radiology — Choy, Garry; …; Dreyer, 
+Keith J. (2018). Radiology 288(2):318–328. DOI: 10.1148/radiol.2018171820 
+  
+Reviewing the relationship between machines and radiology: the application of artificial intelligence — 
+Ahmad, Rani (2021). Acta Radiologica Open 10(2). DOI: 10.1177/2058460121990296 
+  
+Role of Artificial Intelligence in Medical Image Analysis: A Review of Current Trends and Future
+
+--- CHUNK 21 ---
+Ahmad, Rani (2021). Acta Radiologica Open 10(2). DOI: 10.1177/2058460121990296 
+  
+Role of Artificial Intelligence in Medical Image Analysis: A Review of Current Trends and Future 
+Directions — Li, Xin; Zhang, Lei; Yang, Jingsi; Teng, Fei (2024). Journal of Medical and Biological 
+Engineering 44(2):231–243. DOI: 10.1007/s40846-024-00863-x 
+  
+A Survey on Explainable Artificial Intelligence (XAI) Techniques for Visualizing Deep Learning 
+Models in Medical Imaging — Bhati, Deepshikha; Neha, Fnu; Amiruzzaman, Md (2024). Journal of 
+Imaging 10(10). DOI: 10.3390/jimaging10100239 
+  
+Study on Machine Learning and Deep Learning in Medical Imaging Emphasizes MRI: A Systematic 
+Literature Review — Alqahatani, Saeed (2023). International Journal of Pharmaceutical Research and 
+Allied Sciences 12(2):70–78. DOI: 10.51847/kj4hoW5tIZ 
+  
+Comparison of Vision Transformers and Convolutional Neural Networks in Medical Image Analysis: A
+
+--- CHUNK 22 ---
+Allied Sciences 12(2):70–78. DOI: 10.51847/kj4hoW5tIZ 
+  
+Comparison of Vision Transformers and Convolutional Neural Networks in Medical Image Analysis: A 
+Systematic Review — Takahashi, S.; …; Hamamoto, R. (2024). Journal of Medical Systems 48(1). DOI: 
+10.1007/s10916-024-02105-8 
+  
+   
+ 
+   
+ 
+Artificial intelligence in tumor subregion analysis based on medical imaging: A review — Lin, M.; …; 
+Yang, Xiaofeng (2021). J Appl Clin Med Phys 22(7):10–26. DOI: 10.1002/acm2.13321 
+  
+Convolutional Neural Network in Medical Image Analysis: A Review — Kshatri, S. S.; Singh, Deepak 
+(2023). Archives of Computational Methods in Engineering 30(4):2793–2810. DOI: 10.1007/s11831-
+023-09898-w 
+  
+Artificial Intelligence in Veterinary Imaging: An Overview — Pereira, A. I.; …; Ginja, Mario (2023). 
+Veterinary Sciences 10(5). DOI: 10.3390/vetsci10050320 
+  
+Deep Convolutional Neural Networks in Medical Image Analysis: A Review — Mienye, I. D.; …;
+
+--- CHUNK 23 ---
+Veterinary Sciences 10(5). DOI: 10.3390/vetsci10050320 
+  
+Deep Convolutional Neural Networks in Medical Image Analysis: A Review — Mienye, I. D.; …; 
+Ilono, Philip (2025). Information 16(3). DOI: 10.3390/info16030195 
+  
+Advancing Automated Medical Image Diagnosis Through Deep Learning Framework Integration — 
+Gayatri, K.; …; Padmavathi, B. (2024). Proc. ICSCSS 2024:889–894. DOI: 
+10.1109/ICSCSS60660.2024.10625583 
+  
+Computer image analysis with artificial intelligence: a practical introduction to convolutional neural 
+networks for medical professionals — Kourounis, G.; …; Wilson, C. (2023). Postgraduate Medical 
+Journal 99(1178):1287–1294. DOI: 10.1093/postmj/qgad095 
+  
+A Practical Guide to Artificial Intelligence-Based Image Analysis in Radiology — Weikert, T.; …; 
+Stieltjes, B. (2020). Investigative Radiology 55(1):1–7. DOI: 10.1097/RLI.0000000000000600 
+  
+Нуриел, [09.10.2025 23:32]
+
+--- CHUNK 24 ---
+Stieltjes, B. (2020). Investigative Radiology 55(1):1–7. DOI: 10.1097/RLI.0000000000000600 
+  
+Нуриел, [09.10.2025 23:32] 
+“Shortcuts” Causing Bias in Radiology Artificial Intelligence: Causes, Evaluation, and Mitigation — 
+Banerjee, I.; …; Dercle, L. (2023). JACR 20(9):842–851. DOI: 10.1016/j.jacr.2023.06.025 
+  
+SWOT Analysis of AI and ML Applications in Radiology — Martin Noguerol, T.; …; Luna, A. (2019). 
+JACR 16(9B):1239–1247. DOI: 10.1016/j.jacr.2019.05.047 
+  
+Interpretable artificial intelligence in radiology and radiation oncology — Cui, S.; …; Wei, L. (2023). 
+British Journal of Radiology 96(1150). DOI: 10.1259/bjr.20230142 
+  
+Artificial intelligence in medical imaging — Gore, John C. (2020). Magnetic Resonance Imaging 
+68:A1–A4. DOI: 10.1016/j.mri.2019.12.006 
+  
+Artificial intelligence in radiology — Hosny, A.; …; Aerts, H. J. W. L. (2018). Nature Reviews Cancer 
+18(8):500–510. DOI: 10.1038/s41568-018-0016-5
+
+--- CHUNK 25 ---
+68:A1–A4. DOI: 10.1016/j.mri.2019.12.006 
+  
+Artificial intelligence in radiology — Hosny, A.; …; Aerts, H. J. W. L. (2018). Nature Reviews Cancer 
+18(8):500–510. DOI: 10.1038/s41568-018-0016-5 
+  
+Prime Time for Artificial Intelligence in Interventional Radiology — Seah, J.; …; Goh, G. S. (2022). 
+Cardiovasc Intervent Radiol 45(3):283–289. DOI: 10.1007/s00270-021-03044-4 
+  
+Generative AI in Medical Imaging: Applications, Challenges, and Ethics — Koohi-Moghadam, M.; Bae, 
+K. T. (2023). Journal of Medical Systems 47(1). DOI: 10.1007/s10916-023-01987-4 
+  
+Enhancing radiomics and Deep Learning systems through the standardization of medical imaging 
+workflows — Cobo, M.; …; Iglesias, L. L. (2023). Scientific Data 10(1). DOI: 10.1038/s41597-023-
+02641-x 
+  
+   
+ 
+   
+ 
+Artificial Intelligence for the Future Radiology Diagnostic Service — Mun, S. K.; …; Bayarsaikhan, S. 
+(2021). Frontiers in Molecular Biosciences 7. DOI: 10.3389/fmolb.2020.614258
+
+--- CHUNK 26 ---
+Artificial Intelligence for the Future Radiology Diagnostic Service — Mun, S. K.; …; Bayarsaikhan, S. 
+(2021). Frontiers in Molecular Biosciences 7. DOI: 10.3389/fmolb.2020.614258 
+  
+Understanding AI-based radiology studies: CNN architecture — Mutasa, S.; Sun, S.; Ha, R. (2021). 
+Clinical Imaging 80:72–76. DOI: 10.1016/j.clinimag.2021.06.033 
+  
+Reproducibility of Deep Learning Algorithms Developed for Medical Imaging Analysis: A Systematic 
+Review — Moassefi, M.; …; Faghani, S. (2023). Journal of Digital Imaging 36(5):2306–2312. DOI: 
+10.1007/s10278-023-00870-5 
+  
+Introduction to Radiomics and Artificial Intelligence: A Primer for Radiologists — Haneberg, A. G.; …; 
+Forghani, R. (2023). Seminars in Roentgenology 58(2):152–157. DOI: 10.1053/j.ro.2023.02.002 
+  
+Towards nationally curated data archives for clinical radiology image analysis at scale — Cushnan, D.; 
+…; NCCID Collaborative (2021). Digital Health 7. DOI: 10.1177/20552076211048654
+
+--- CHUNK 27 ---
+Towards nationally curated data archives for clinical radiology image analysis at scale — Cushnan, D.; 
+…; NCCID Collaborative (2021). Digital Health 7. DOI: 10.1177/20552076211048654 
+  
+Artificial Intelligence Solutions for Analysis of X-ray Images — Adams, S. J.; …; Babyn, P. (2021). 
+Canadian Association of Radiologists Journal 72(1):60–72. DOI: 10.1177/0846537120941671 
+  
+Deep learning in generating radiology reports: A survey — Monshi, M. M. A.; Poon, J.; Chung, V. 
+(2020). Artificial Intelligence in Medicine 106. DOI: 10.1016/j.artmed.2020.101878 
+  
+CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison — Irvin, 
+J.; …; Ng, A. Y. (2019). AAAI-33:590–597. 
+  
+Basics of Deep Learning: A Radiologist’s Guide… — Do, S.; Song, K. D.; Chung, J. W. (2020). Korean 
+Journal of Radiology 21(1):33–41. DOI: 10.3348/kjr.2019.0312 
+  
+GLoRIA: A Multimodal Global-Local Representation Learning Framework… — Huang, S.-C.; …;
+
+--- CHUNK 28 ---
+Journal of Radiology 21(1):33–41. DOI: 10.3348/kjr.2019.0312 
+  
+GLoRIA: A Multimodal Global-Local Representation Learning Framework… — Huang, S.-C.; …; 
+Yeung, S. (2021). ICCV 2021:3922–3931. DOI: 10.1109/ICCV48922.2021.00391 
+  
+Lung and Pancreatic Tumor Characterization in the Deep Learning Era — Hussein, S.; …; Bagci, U. 
+(2019). IEEE TMI 38(8):1777–1787. DOI: 10.1109/TMI.2019.2894349 
+  
+Demystification of AI-driven medical image interpretation — Savadjiev, P.; …; Gallix, B. (2019). 
+European Radiology 29(3):1616–1624. DOI: 10.1007/s00330-018-5674-x 
+  
+A Study of CNN and Transfer Learning in Medical Imaging — Salehi, A. W.; …; Mellit, A. (2023). 
+Sustainability 15(7). DOI: 10.3390/su15075930 
+  
+Medical Imaging using Machine Learning and Deep Learning Algorithms: A Review — Latif, J.; …; 
+Tu, S. (2019). ICOMET 2019. DOI: 10.1109/icomet.2019.8673502 
+  
+Automated Lung-Related Pneumonia and COVID-19 Detection… — Ukwuoma, C. C.; …; Nneji, G. U.
+
+--- CHUNK 29 ---
+Tu, S. (2019). ICOMET 2019. DOI: 10.1109/icomet.2019.8673502 
+  
+Automated Lung-Related Pneumonia and COVID-19 Detection… — Ukwuoma, C. C.; …; Nneji, G. U. 
+(2022). Bioengineering-Basel 9(11). DOI: 10.3390/bioengineering9110709 
+  
+Image analysis of cardiac hepatopathy secondary to heart failure — Miida, S.; …; Terai, S. (2025). 
+World Journal of Gastroenterology 31(34). DOI: 10.3748/wjg.v31.i34.108807 
+  
+Нуриел, [09.10.2025 23:32] 
+   
+ 
+   
+ 
+Application of image processing methods in the healthcare sector — Malathi, C.; Jayachandran, S. 
+(2025). Book chapter, pp.197–231. 
+  
+AI-based association analysis for medical imaging… — Liu, X.; …; Bron, E. E. (2025). Medical Image 
+Analysis 102. DOI: 10.1016/j.media.2025.103529 
+  
+AI in radiological imaging of soft-tissue and bone tumours: a systematic review… — Spaanderman, D. 
+J.; …; Starmans, M. P. A. (2025). eBioMedicine 114. DOI: 10.1016/j.ebiom.2025.105642
+
+--- CHUNK 30 ---
+AI in radiological imaging of soft-tissue and bone tumours: a systematic review… — Spaanderman, D. 
+J.; …; Starmans, M. P. A. (2025). eBioMedicine 114. DOI: 10.1016/j.ebiom.2025.105642 
+  
+Revolutionizing Cancer Research and Drug Discovery: The Role of AI and ML — Paliwal, A.; …; 
+Dhoundiyal, S. (2025). Current Cancer Therapy Reviews 21(3):362–372. DOI: 
+10.2174/0115733947288355240305080236 
+  
+Deep learning-based image classification for AI-assisted integration of pathology and radiology — He, 
+L.; Luan, L.; Hu, D. (2025). Frontiers in Medicine 12. DOI: 10.3389/fmed.2025.1574514 
+  
+Squared Fault and Biased Entropy for MRI and CT Image Synthesis Using Firefly Algorithm — Abidi, 
+N. A.; … (2025). CCIS 1952:452–463. DOI: 10.1007/978-3-031-69115-7_32 
+  
+Automatic delineation and prognostic assessment of H&N tumor… — Ul Abidin, Z. U.; …; Kim, H. S. 
+(2024). Neurocomputing 610. DOI: 10.1016/j.neucom.2024.128531
+
+--- CHUNK 31 ---
+Automatic delineation and prognostic assessment of H&N tumor… — Ul Abidin, Z. U.; …; Kim, H. S. 
+(2024). Neurocomputing 610. DOI: 10.1016/j.neucom.2024.128531 
+  
+Bridging human and machine intelligence: Reverse-engineering radiologist intentions… — Awasthi, A.; 
+…; van Nguyen, H. V. (2024). Comput Struct Biotechnol J 24:711–723. DOI: 
+10.1016/j.csbj.2024.11.012 
+  
+Image annotation and curation in radiology: an overview for ML practitioners — Galbusera, F.; Cina, A. 
+(2024). European Radiology Experimental 8(1). DOI: 10.1186/s41747-023-00408-y 
+  
+Artificial Intelligence in Radiology: What Is Its True Role at Present, and Where Is the Evidence? — 
+Mohseni, A.; … (2024). Radiologic Clinics of North America 62(6):935–947. DOI: 
+10.1016/j.rcl.2024.03.008 
+  
+MONAI Label: A framework for AI-assisted interactive labeling of 3D medical images — Diaz-Pinto, 
+A.; …; Cardoso, J. J. (2024). Medical Image Analysis 95. DOI: 10.1016/j.media.2024.103207
+
+--- CHUNK 32 ---
+MONAI Label: A framework for AI-assisted interactive labeling of 3D medical images — Diaz-Pinto, 
+A.; …; Cardoso, J. J. (2024). Medical Image Analysis 95. DOI: 10.1016/j.media.2024.103207 
+  
+The Use of Machine Learning in Eye Tracking Studies in Medical Imaging: A Review — Ibragimov, B.; 
+Mello-Thoms, C. R. (2024). IEEE JBHI 28(6):3597–3612. DOI: 10.1109/JBHI.2024.3371893 
+  
+Uncover This Tech Term: GANs — Ahmed, H. S. (2024). Korean Journal of Radiology 25(5):493–498. 
+DOI: 10.3348/kjr.2023.1306 
+  
+RAPHIA: A deep learning pipeline for registration of MRI and whole-mount histopathology of the 
+prostate — Shao, W.; …; Rusu, M. (2024). Computers in Biology and Medicine 173. DOI: 
+10.1016/j.compbiomed.2024.108318 
+  
+A Feline-Inspired Optimizer Enhanced Through Self-Improvement… for Identification of Lung Cancer 
+in CT Scans — Arunachalam, P.; … (2024). DOI: 10.1109/ICAIT61638.2024.10690312
+
+--- CHUNK 33 ---
+A Feline-Inspired Optimizer Enhanced Through Self-Improvement… for Identification of Lung Cancer 
+in CT Scans — Arunachalam, P.; … (2024). DOI: 10.1109/ICAIT61638.2024.10690312 
+  
+Role of Big Data, AI and Deep Learning in Medical Image Training Models… — Bhatt, K.; Kumar, S. 
+M. (2024). LNICST 530:84–96. DOI: 10.1007/978-3-031-71911-0_7 
+   
+ 
+   
+ 
+  
+Artificial intelligence in liver cancer research: a scientometrics analysis — Rezaee-Zavareh, M. S.; … 
+(2024). Frontiers in Oncology 14. DOI: 10.3389/fonc.2024.1355454 
+  
+Enhancing Medical Diagnosis Through DL and ML in Image Analysis — Usmani, U. A.; Happonen, A.; 
+Watada, J. (2024). LNNS 825:449–468. DOI: 10.1007/978-3-031-47718-8_30 
+  
+Emerging trends of AI in healthcare: a bibliometric outlook — Almeida, M. I.; … (2024). Int. J. 
+Healthcare Technology and Management 21(1):49–78. DOI: 10.1504/IJHTM.2024.136548 
+  
+Automatization of CT Annotation: Combining AI Efficiency with Expert Precision — Edelmers, E.; …
+
+--- CHUNK 34 ---
+Healthcare Technology and Management 21(1):49–78. DOI: 10.1504/IJHTM.2024.136548 
+  
+Automatization of CT Annotation: Combining AI Efficiency with Expert Precision — Edelmers, E.; … 
+(2024). Diagnostics 14(2). DOI: 10.3390/diagnostics14020185 
+  
+Artificial Intelligence for Medical Image Analysis: An Opportunity for Automation — Nwaiwu, C. A.; 
+Park, A. E. (2024). Book chapter, pp.141–150. DOI: 10.1007/978-3-031-68574-3_10 
+  
+Reporting Quality of AI Studies in Medical Images According to CLAIM — Kim, D.; Oh, H.; Suh, C.-
+h. (2023). Korean Journal of Radiology 24(12):1179–1189. DOI: 10.3348/kjr.2023.1027 
+  
+Medigan: A Python library of pretrained generative models for medical image synthesis — Osuala, R.; 
+…; Lekadir, K. (2023). Journal of Medical Imaging 10(6). DOI: 10.1117/1.JMI.10.6.061403 
+  
+Нуриел, [09.10.2025 23:32] 
+Clinical application of radiological AI for pulmonary nodule evaluation — Vasilev, Y. A.; … (2023). Int 
+J Med Inform 178. DOI: 10.1016/j.ijmedinf.2023.105190
+
+--- CHUNK 35 ---
+Нуриел, [09.10.2025 23:32] 
+Clinical application of radiological AI for pulmonary nodule evaluation — Vasilev, Y. A.; … (2023). Int 
+J Med Inform 178. DOI: 10.1016/j.ijmedinf.2023.105190 
+  
+Performance and clinical applicability of ML in liver CT: a systematic review — Radiya, K.; … (2023). 
+European Radiology 33(10):6689–6717. DOI: 10.1007/s00330-023-09609-w 
+  
+Medical imaging: Challenges and future directions in AI-Based systems — Kumar, R.; … (2023). AIP 
+Conf Proc 2782. DOI: 10.1063/5.0154355 
+  
+What Does DALL-E 2 Know About Radiology? — Adams, L. C.; …; Bressem, K. K. (2023). J Med 
+Internet Res 25. DOI: 10.2196/43110 
+  
+Intelligent imaging: Applications of ML and DL in radiology — Currie, G. M.; Rohren, E. M. (2022). 
+Veterinary Radiology and Ultrasound 63(S1):880–888. DOI: 10.1111/vru.13144 
+  
+Semantic-Powered Explainable Model-Free Few-Shot Learning of Diagnosing COVID-19 on CXR — 
+Wang, Y.; … (2022). IEEE JBHI 26(12):5870–5882. DOI: 10.1109/JBHI.2022.3205167
+
+--- CHUNK 36 ---
+Semantic-Powered Explainable Model-Free Few-Shot Learning of Diagnosing COVID-19 on CXR — 
+Wang, Y.; … (2022). IEEE JBHI 26(12):5870–5882. DOI: 10.1109/JBHI.2022.3205167 
+  
+AIM and Explainable Methods in Medical Imaging and Diagnostics — Anwar, S. M. (2022). Book 
+chapter, pp.501–510. DOI: 10.1007/978-3-030-64573-1_293 
+  
+Machine Learning in Medical Imaging – Clinical Applications and Challenges in Computer Vision — 
+Mehta, O. H.; … (2022). Book chapter, pp.79–99. DOI: 10.1007/978-981-19-1223-8_4 
+  
+CNN-based COVID-19 Analysis with IoT — Saravanan, T.; … (2022). DOI: 
+10.1109/ICATIECE56365.2022.10047327 
+  
+   
+ 
+   
+ 
+AI-Enhanced Breast MRI and DWI: Current Status and Future Applications — Pinker, K.; … (2022). 
+Book chapter, pp.162–175. DOI: 10.1016/B978-0-323-79702-3.00010-1 
+  
+Applications and challenges of AI in diagnostic and interventional radiology — Waller, J. V.; … (2022). 
+Polish Journal of Radiology 87(1):e113–e117. DOI: 10.5114/pjr.2022.113531
+
+--- CHUNK 37 ---
+Applications and challenges of AI in diagnostic and interventional radiology — Waller, J. V.; … (2022). 
+Polish Journal of Radiology 87(1):e113–e117. DOI: 10.5114/pjr.2022.113531 
+  
+Artificial intelligence with deep learning in nuclear medicine and radiology — Decuyper, M.; … (2021). 
+EJNMMI Physics 8(1). DOI: 10.1186/s40658-021-00426-y 
+  
+DICOM Image ANalysis and Archive (DIANA): an Open-Source System for Clinical AI — Yi, T. Y.; 
+…; Merck, D. L. (2021). Journal of Digital Imaging 34(6):1405–1413. DOI: 10.1007/s10278-021-
+00488-5 
+  
+Using Deep Learning to Detect Spinal Cord Diseases on Thoracolumbar MRI of Dogs — Biercher, A.; 
+…; Volk, H. A. (2021). Frontiers in Veterinary Science 8. DOI: 10.3389/fvets.2021.721167 
+  
+ML-based prediction of SCC in ex vivo confocal laser scanning microscopy — Ruini, C.; … (2021). 
+Cancers 13(21). DOI: 10.3390/cancers13215522 
+  
+Upstream Machine Learning in Radiology — Sandino, C. M.; …; Vasanawala, S. S. (2021). Radiologic
+
+--- CHUNK 38 ---
+Cancers 13(21). DOI: 10.3390/cancers13215522 
+  
+Upstream Machine Learning in Radiology — Sandino, C. M.; …; Vasanawala, S. S. (2021). Radiologic 
+Clinics of North America 59(6):967–985. DOI: 10.1016/j.rcl.2021.07.009 
+  
+AI research within reach: rickets on pediatric wrist radiographs — Meda, K. C.; … (2021). Pediatric 
+Radiology 51(5):782–791. DOI: 10.1007/s00247-020-04895-8 
+  
+AI applications in robotics, diagnostic image analysis and precision medicine — Habuza, T.; … (2021). 
+Informatics in Medicine Unlocked 24. DOI: 10.1016/j.imu.2021.100596 
+  
+Unifying neural learning and symbolic reasoning for spinal medical report generation — Han, Z.; … 
+(2021). Medical Image Analysis 67. DOI: 10.1016/j.media.2020.101872 
+  
+AI Applications for Workflow, Process Optimization and Predictive Analytics — Létourneau-Guillon, 
+L.; … (2020). Neuroimaging Clinics of North America 30(4):e1–e15. DOI: 10.1016/j.nic.2020.08.008
+
+--- CHUNK 39 ---
+AI Applications for Workflow, Process Optimization and Predictive Analytics — Létourneau-Guillon, 
+L.; … (2020). Neuroimaging Clinics of North America 30(4):e1–e15. DOI: 10.1016/j.nic.2020.08.008 
+  
+AI in Medical Imaging Informatics: Current Challenges and Future Directions — Panayides, A. S.; … 
+(2020). IEEE JBHI 24(7):1837–1857. DOI: 10.1109/JBHI.2020.2991043 
+  
+AI applications for thoracic imaging — Chassagnon, G.; …; Revel, M. P. (2020). European Journal of 
+Radiology 123. DOI: 10.1016/j.ejrad.2019.108774 
+  
+Overview of radiomics in breast cancer diagnosis and prognostication — Tagliafico, A. S.; …; 
+HOUSSAMI, N. (2020). Breast 49:74–80. DOI: 10.1016/j.breast.2019.10.018 
+  
+Artificial Intelligence and Radiomics: Outlook into the Future — Di Noto, T.; … (2020). Book chapter, 
+pp.335–342. DOI: 10.1007/978-3-030-48419-4_22 
+  
+Joint imaging platform for federated clinical data analytics — Scherer, J.; … (2020). JCO Clinical
+
+--- CHUNK 40 ---
+pp.335–342. DOI: 10.1007/978-3-030-48419-4_22 
+  
+Joint imaging platform for federated clinical data analytics — Scherer, J.; … (2020). JCO Clinical 
+Cancer Informatics 4:1027–1038. DOI: 10.1200/CCI.20.00045 
+  
+Нуриел, [09.10.2025 23:32] 
+   
+ 
+   
+ 
+Conceptualising artificial intelligence as a digital healthcare innovation — Arora, A. (2020). Medical 
+Devices: Evidence and Research 13:223–230. DOI: 10.2147/MDER.S262590 
+  
+Receptivity of an AI cognitive assistant by the radiology community — Kanjaria, K.; …; Syeda-
+Mahmood, T. F. (2020). Proc. RSNA report, pp.178–186. 
+  
+Deep learning in medical imaging — Kim, M.; …; Kim, N. (2019). Neurospine 16(4):657–668. DOI: 
+10.14245/ns.1938396.198 
+  
+A Platform for Collection and Analysis of Image Data on Stroke — Dolotova, D. D.; … (2019). Studies 
+in Health Technology and Informatics 262:312–315. DOI: 10.3233/SHTI190081 
+  
+Body part and imaging modality classification for a general radiology cognitive assistant — Agunwa,
+
+--- CHUNK 41 ---
+in Health Technology and Informatics 262:312–315. DOI: 10.3233/SHTI190081 
+  
+Body part and imaging modality classification for a general radiology cognitive assistant — Agunwa, 
+C.; …; Syeda-Mahmood, T. F. (2019). SPIE 10949. DOI: 10.1117/12.2513074 
+  
+Big data-driven advanced analytics… for GPU based seismic interpretations — Haroon, S.; … (2019). 
+Conf. paper. 
+  
+Imaging intelligence: AI is transforming medical imaging across the spectrum — Mandal, S.; 
+Greenblatt, A. B.; An, J. (2018). IEEE Pulse 9(5):16–24. DOI: 10.1109/MPUL.2018.2857226 
+  
+Deep Learning and Hand-Crafted Feature Based Approaches for Polyp Detection in Medical Videos — 
+Pogorelov, K.; … (2018). CBMS 2018:381–386. DOI: 10.1109/CBMS.2018.00073 
+  
+Artificial Intelligence in Medical Practice: The Question to the Answer? — Miller, D. D.; Brown, E. W. 
+(2018). American Journal of Medicine 131(2):129–133. DOI: 10.1016/j.amjmed.2017.10.035
+
+--- CHUNK 42 ---
+Artificial Intelligence in Medical Practice: The Question to the Answer? — Miller, D. D.; Brown, E. W. 
+(2018). American Journal of Medicine 131(2):129–133. DOI: 10.1016/j.amjmed.2017.10.035 
+  
+Machine Learning Interface for Medical Image Analysis — Zhang, Y. C.; Kagen, A. (2017). Journal of 
+Digital Imaging 30(5):615–621. DOI: 10.1007/s10278-016-9910-0 
+  
+Automated annotation and classification of BI-RADS assessment from radiology reports — Castro, S. 
+M.; … (2017). Journal of Biomedical Informatics 69:177–187. DOI: 10.1016/j.jbi.2017.04.011 
+  
+Analyzing Medical Image Search Behavior — De-Arteaga, M.; …; Müller, H. (2015). Journal of Digital 
+Imaging 28(5):537–546. DOI: 10.1007/s10278-015-9792-6 
+  
+Evolution strategy classification for automated 3D radiology segmentation — Zwettler, G. A.; 
+Backfrieder, W. (2015). ICCCT2:12–18. DOI: 10.1109/ICCCT2.2015.7292712 
+  
+What catches a radiologist’s eye? Comparison of feature types for saliency prediction — Alzubaidi, M.
+
+--- CHUNK 43 ---
+Backfrieder, W. (2015). ICCCT2:12–18. DOI: 10.1109/ICCCT2.2015.7292712 
+  
+What catches a radiologist’s eye? Comparison of feature types for saliency prediction — Alzubaidi, M. 
+A.; …; Black, J. A. (2010). SPIE 7624. DOI: 10.1117/12.844508 
+  
+A framework for medical image retrieval using machine learning… — Rahman, M. W.; Bhattacharya, 
+P.; Desai, B. C. (2007). IEEE TITB 11(1):58–69. DOI: 10.1109/TITB.2006.884364
+

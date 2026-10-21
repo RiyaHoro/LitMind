@@ -1,0 +1,630 @@
+--- CHUNK 1 ---
+arXiv:0712.3825v1  [cs.AI]  22 Dec 2007
+Tests of Machine Intelligence
+Shane Legg
+IDSIA, Galleria 2, Manno-Lugano CH-6928, Switzerland
+shane@vetta.org www.vetta.org/shane
+Marcus Hutter
+RSISE @ ANU and SML @ NICTA, Canberra, ACT, 0200, Australia
+marcus@hutter1.net www.hutter1.net
+December 2007
+Abstract
+Although the deﬁnition and measurement of intelligence is c learly of
+fundamental importance to the ﬁeld of artiﬁcial intelligen ce, no general
+survey of deﬁnitions and tests of machine intelligence exis ts. Indeed few
+researchers are even aware of alternatives to the Turing tes t and its many
+derivatives. In this paper we ﬁll this gap by providing a shor t survey of the
+many tests of machine intelligence that have been proposed.
+Contents
+1 Introduction 2
+2 T uring test and derivatives 2
+3 Compression tests 3
+4 Linguistic complexity 4
+5 Multiple cognitive abilities 5
+6 Competitive games 5
+7 Collection of psychometric tests 5
+8 Smith’s test 6
+9 C-T est 7
+10 Universal intelligence 7
+
+--- CHUNK 2 ---
+3 Compression tests 3
+4 Linguistic complexity 4
+5 Multiple cognitive abilities 5
+6 Competitive games 5
+7 Collection of psychometric tests 5
+8 Smith’s test 6
+9 C-T est 7
+10 Universal intelligence 7
+11 Summary 9
+References 10
+1
+1 Introduction
+Despite solid progress on many fronts over the last 50 years, artiﬁ cial intelligence is
+still a very young ﬁeld with many of its greatest achievements, and s ome of its most
+fundamental problems, yet to be tackled. From a theoretical per spective, one of
+the most fundamental problems in the ﬁeld is that the very concept of intelligence
+remains rather murky. This is somewhat true in the context of huma ns, but it
+is especially true when we consider machines which may have completely diﬀerent
+sensors, bodies, cognitive capacities and live in diﬀerent environmen ts to ourselves.
+What does “intelligence” mean for a machine? Perhaps the ﬁrst atte mpt to answer
+this question, and certainly the only attempt that most researche rs are aware of,
+
+--- CHUNK 3 ---
+What does “intelligence” mean for a machine? Perhaps the ﬁrst atte mpt to answer
+this question, and certainly the only attempt that most researche rs are aware of,
+is Alan Turing’s famous imitation game [33]. Turing recognised how diﬃcult it
+would be to explicitly deﬁne intelligence and thus attempted to sideste p the issue
+completely. Although this was a clever move, it leaves us with a test of machine
+intelligence that tells us almost nothing about what intelligence actually is, and thus
+is of little use as a foundation, either theoretical or practical, for o ur research.
+Since then, a few bold researchers have tried to tackle this diﬃcult p roblem
+in a more satisfactory way by proposing various deﬁnitions and test s of machine
+intelligence. By and large, these proposals have been ignored by the community.
+Indeed to the best of our knowledge, no general survey of tests and deﬁnitions of
+intelligence for machines has ever been published.
+
+--- CHUNK 4 ---
+Indeed to the best of our knowledge, no general survey of tests and deﬁnitions of
+intelligence for machines has ever been published.
+We feel that to ignore a question as fundamental as the deﬁnition o f machine
+intelligence is a serious mistake. In any science, issues surrounding f undamental
+deﬁnitions and methods of measurement play a central role and for m the foundation
+on which theoretical advances are constructed and practical ad vances are measured.
+If we are to truly advance as a ﬁeld over the next 50 years, we will ne ed to return
+to this most central of problems in order to secure what artiﬁcial in telligence is and
+what it aims for. As a ﬁrst step in this direction, it is necessary that r esearchers are
+at least aware of the many alternatives to Turing’s tests that have been proposed.
+In this paper we hope to partly meet this need by providing the ﬁrst g eneral survey
+of tests and deﬁnitions of machine intelligence.
+2 Turing test and derivatives
+
+--- CHUNK 5 ---
+In this paper we hope to partly meet this need by providing the ﬁrst g eneral survey
+of tests and deﬁnitions of machine intelligence.
+2 Turing test and derivatives
+The classic approach to determining whether a machine is intelligent is t he so called
+Turing test [33] which has been extensively debated over the last 50 years [26].
+Turing realised how diﬃcult it would be to directly deﬁnite intelligence and thus
+attempted to side step the issue by setting up his now famous imitatio n game: If
+human judges cannot eﬀectively discriminate between a computer a nd a human
+through teletyped conversation, then we must conclude that the computer is intel-
+ligent.
+Though simple and clever, the test has attracted much criticism. Blo ck and
+Searle argue that passing the test is not suﬃcient to establish intelligence [3, 28, 7].
+2
+Essentially they both argue that a machine could appear to be intellige nt without
+having any “real intelligence”, perhaps by using a very large table of answers to
+
+--- CHUNK 6 ---
+2
+Essentially they both argue that a machine could appear to be intellige nt without
+having any “real intelligence”, perhaps by using a very large table of answers to
+questions. While such a machine might be impossible in practice due to th e vast
+size of the table required, it is not logically impossible. In which case an u nintelligent
+machine could, at least in theory, consistently pass the Turing test . Some consider
+this to bring the validity of the test into question. In response to th ese challenges,
+even more demanding versions of the Turing test have been propos ed such as the
+Total Turing test [11], the Truly Total Turing test [27] and the inve rted Turing test
+[35]. Dowe argues that the Turing test should be extended by ensur ing that the
+agent has a compressed representation of the domain area, thus ruling out look-up
+table counter arguments [6]. Of course these attacks on the Turin g test can be
+
+--- CHUNK 7 ---
+agent has a compressed representation of the domain area, thus ruling out look-up
+table counter arguments [6]. Of course these attacks on the Turin g test can be
+applied to any test of intelligence that considers only a system’s exte rnal behaviour,
+that is, most intelligence tests.
+A more common criticism is that passing the Turing test is not necessary to
+establish intelligence. Usually this argument is based on the fact that the test
+requires a machine to have a highly detailed model of human knowledge and patterns
+of thought, making it a test of humanness rather than intelligence [ 9, 8]. Indeed even
+small things like pretending to be unable to perform complex arithmetic quickly and
+faking human typing errors become important, something which clea rly goes against
+the purpose of the test.
+The Turing test has other problems as well. Current AI systems are a long way
+from being able to pass an unrestricted Turing test. From a practic al point of view
+
+--- CHUNK 8 ---
+the purpose of the test.
+The Turing test has other problems as well. Current AI systems are a long way
+from being able to pass an unrestricted Turing test. From a practic al point of view
+this means that the full Turing test is unable to oﬀer much guidance t o our work.
+Indeed, even though the Turing test is the most famous test of ma chine intelligence,
+almost no current research in artiﬁcial intelligence is speciﬁcally direc ted toward
+being able to pass it. Unfortunately, simply restricting the domain of conversation in
+the Turing test to make the test easier, as is done in the Loebner co mpetition [22], is
+not suﬃcient. With restricted conversation possibilities the most su ccessful Loebner
+entrants are even more focused on faking human fallibility, rather t han anything
+resembling intelligence [15]. Perhaps a better alternative then is to te st whether a
+machine can imitate a child (see for example the tests described in Sec tions 4 and 5).
+
+--- CHUNK 9 ---
+resembling intelligence [15]. Perhaps a better alternative then is to te st whether a
+machine can imitate a child (see for example the tests described in Sec tions 4 and 5).
+Finally, the Turing test returns diﬀerent results depending on who t he human judges
+are. Its unreliability has in some cases lead to clearly unintelligent mach ines being
+classiﬁed as human, and at least one instance of a human actually failin g a Turing
+test. When queried about the latter, one of the judges explained t hat “no human
+being would have that amount of knowledge about Shakespeare”[29 ].
+3 Compression tests
+Mahoney has proposed a particularly simple solution to the binary pas s or fail prob-
+lem with the Turing test: Replace the Turing test with a text compres sion test [23].
+In essence this is somewhat similar to a “Cloze test” where an individua l’s com-
+3
+prehension and knowledge in a domain is estimated by having them gues s missing
+words from a passage of text.
+
+--- CHUNK 10 ---
+In essence this is somewhat similar to a “Cloze test” where an individua l’s com-
+3
+prehension and knowledge in a domain is estimated by having them gues s missing
+words from a passage of text.
+While simple text compression can be performed with symbol frequen cies, the
+resulting compression is relatively poor. By using more complex models that capture
+higher level features such as aspects of grammar, the best comp ressors are able to
+compress text to about 1.5 bits per character for English. Howeve r humans, which
+can also make use of general world knowledge, the logical structur e of the argument
+etc., are able to reduce this down to about 1 bit per character. Thu s the compression
+statistic provides an easily computed measure of how complete a mac hine’s model
+of language, reasoning and domain knowledge are, relative to a huma n.
+To see the connection to the Turing test, consider a compression t est based on a
+
+--- CHUNK 11 ---
+of language, reasoning and domain knowledge are, relative to a huma n.
+To see the connection to the Turing test, consider a compression t est based on a
+very large corpus of dialogue. If a compressor could perform extr emely well on such
+a test, this is mathematically equivalent to being able to determine whic h sentences
+are probable at a given point in a dialogue, and which are not (for the e quivalence
+of compression and prediction see [2]). Thus, as failing a Turing test o ccurs when a
+machine (or person!) generates a sentence which would be improbab le for a human,
+extremely good performance on dialogue compression implies the abilit y to pass a
+Turing test.
+A recent development in this area is the Hutter Prize [17]. In this tes t the
+corpus is a 100 MB extract from Wikipedia. The idea is that this should r epresent
+a reasonable sample of world knowledge and thus any compressor th at can perform
+very well on this test must have a good model of not just English, bu t also world
+
+--- CHUNK 12 ---
+a reasonable sample of world knowledge and thus any compressor th at can perform
+very well on this test must have a good model of not just English, bu t also world
+knowledge in general.
+One criticism of compression tests is that it is not clear whether a pow erful
+compressor would easily translate into a general purpose artiﬁcial intelligence.
+4 Linguistic complexity
+A more linguistic approach is taken by the HAL project at the compan y Artiﬁcial
+Intelligence NV [32]. They propose to measure a system’s level of con versational
+ability by using techniques developed to measure the linguistic ability of children.
+These methods examine things such as vocabulary size, length of ut terances, re-
+sponse types, syntactic complexity and so on. This would allow syste ms to be
+“. . . assigned an age or a maturity level beside their binary Turing te st assessment
+of ‘intelligent’ or ‘not intelligent’ ”[31]. As they consider communication to be the
+
+--- CHUNK 13 ---
+“. . . assigned an age or a maturity level beside their binary Turing te st assessment
+of ‘intelligent’ or ‘not intelligent’ ”[31]. As they consider communication to be the
+basis of intelligence, and the Turing test to be a valid test of machine in telligence,
+in their view the best way to develop intelligence is to retrace the way in which
+human linguistic development occurs. Although they do not explicitly r efer to their
+linguistic measure as a test of intelligence, because it measures prog ress towards
+what they consider to be a valid intelligence test, it acts as one.
+4
+5 Multiple cognitive abilities
+A broader developmental approach is being taken by IBM’s Joshua B lue project [1].
+In this project they measure the performance of their system by considering a broad
+range of linguistic, social, association and learning tests. Their goal is to ﬁrst pass
+what they call a “toddler Turing test”, that is, to develop an AI sys tem that can
+
+--- CHUNK 14 ---
+range of linguistic, social, association and learning tests. Their goal is to ﬁrst pass
+what they call a “toddler Turing test”, that is, to develop an AI sys tem that can
+pass as a young child in a similar setup to the Turing test. As yet, this t est is not
+fully speciﬁed.
+Another company pursuing a similar developmental approach based on measur-
+ing system performance through a broad range of cognitive tests is the a2i2 project
+at Adaptive AI [34]. Rather than toddler level intelligence, their cur rent goal to is
+work toward a level of cognitive performance similar to that of a sma ll mammal.
+The idea being that even a small mammal has many of the key cognitive abilities
+required for human level intelligence working together in an integrat ed way. While
+this might be useful to guide the development of moderate intelligenc e, it is unknown
+whether it will scale to higher levels of intelligence. The speciﬁc tests b eing used
+have not been published.
+6 Competitive games
+
+--- CHUNK 15 ---
+whether it will scale to higher levels of intelligence. The speciﬁc tests b eing used
+have not been published.
+6 Competitive games
+The Turing Ratio method of Masum et al. has more emphasis on tasks a nd games
+rather than cognitive tests. They propose that “. . . doing well at a broad range
+of tasks is an empirical deﬁnition of ‘intelligence’.”[24] To quantify this t hey seek
+to identify tasks that measure important abilities, admit a series of s trategies that
+are qualitatively diﬀerent, and are reproducible and relevant over a n extended pe-
+riod of time. They suggest a system of measuring performance thr ough pairwise
+comparisons between AI systems that is similar to that used to rate players in the
+international chess rating system. The key diﬃculty however, whic h the authors
+acknowledge is an open challenge, is to work out what these tasks sh ould be, and to
+quantify just how broad, important and relevant each is. In our vie w these are some
+
+--- CHUNK 16 ---
+acknowledge is an open challenge, is to work out what these tasks sh ould be, and to
+quantify just how broad, important and relevant each is. In our vie w these are some
+of the most central problems that must be solved when attempting to construct an
+intelligence test and thus this approach is incomplete in its current st ate.
+7 Collection of psychometric tests
+An approach called Psychometric AI tries to address the problem of what to test
+for in a pragmatic way. In the view of Bringsjord and Schimanski, “So me agent
+is intelligent if and only if it excels at all established, validated tests of [h uman]
+intelligence.”[4] They later broaden this to also include “tests of artis tic and literary
+creativity, mechanical ability, and so on.” With this as their goal, their research is
+focused on building robots that can perform well on standard psyc hometric tests
+5
+designed for humans, such as the Wechsler Adult Intelligent Scale an d Raven Pro-
+gressive Matrices.
+
+--- CHUNK 17 ---
+focused on building robots that can perform well on standard psyc hometric tests
+5
+designed for humans, such as the Wechsler Adult Intelligent Scale an d Raven Pro-
+gressive Matrices.
+As eﬀective as these tests are for humans, they seem inadequate for measuring
+machine intelligence as they are highly anthropocentric and embody b asic assump-
+tions about the test subject that are likely to be violated by comput ers. For example,
+consider the fundamental assumption that the test subject is no t simply a collection
+of specialised algorithms designed only for answering common IQ test questions.
+While this is obviously true of a human, or even an ape, it may not be tru e of a
+computer. The computer could be nothing more than a collection of s peciﬁc al-
+gorithms designed to identify patterns in shapes, predict number s equences, write
+poems on a given subject or solve verbal analogy problems — all thing s that AI
+
+--- CHUNK 18 ---
+gorithms designed to identify patterns in shapes, predict number s equences, write
+poems on a given subject or solve verbal analogy problems — all thing s that AI
+researchers have worked on. Such a machine might be able to obtain a respectable
+IQ score [25], even though outside of these speciﬁc test problems it would be next
+to useless. If we try to correct for these limitations by expanding b eyond standard
+tests, as Bringsjord and Schimanski seem to suggest, this once a gain opens up the
+diﬃculty of exactly what, and what not, to test for. Psychometric AI, at least as it
+is currently formulated, only partially addresses this central ques tion.
+8 Smith’s test
+The basic structure of Smith’s test is that an agent faces a series o f problems that
+are generated by an algorithm [30]. In each iteration the agent must try to produce
+the correct response to the problem that it has been given. The pr oblem generator
+
+--- CHUNK 19 ---
+are generated by an algorithm [30]. In each iteration the agent must try to produce
+the correct response to the problem that it has been given. The pr oblem generator
+then responds with a score of how good the agent’s answer was. If the agent so
+desires it can submit another answer to the same problem. At some p oint the agent
+requests to the problem generator to move onto the next problem and the score that
+the agent received for its last answer to the current problem is the n added to its
+cumulative score. Each interaction cycle counts as one time step an d the agent’s
+intelligence is then its total cumulative score considered as a functio n of time. In
+order to keep things feasible, the problems must all be in P, i.e. the so lution must
+be veriﬁable in polynomial time.
+We have two main criticisms of Smith’s deﬁnition. Firstly, while for pract ical
+reasons it might make sense to restrict problems to be in P, we do not see why this
+
+--- CHUNK 20 ---
+be veriﬁable in polynomial time.
+We have two main criticisms of Smith’s deﬁnition. Firstly, while for pract ical
+reasons it might make sense to restrict problems to be in P, we do not see why this
+practical restriction should be a part of the very deﬁnition of intellig ence as Smith
+suggests. If some breakthrough meant that agents could solve d iﬃcult problems in
+not just P but sometimes in NP as well, then surely these new agents w ould be more
+intelligent?
+Secondly, while the deﬁnition is somewhat formally deﬁned, it still leave s open
+the important question of what exactly the tests should be. Smith s uggests that
+researchers should dream up tests and then contribute them to s ome common pool
+of tests. As such, this is not a fully speciﬁed test.
+6
+9 C-Test
+One perspective among psychologists who support the g-factor view of intelligence,
+is that intelligence is “the ability to deal with complexity”[10]. Thus in a te st
+
+--- CHUNK 21 ---
+6
+9 C-Test
+One perspective among psychologists who support the g-factor view of intelligence,
+is that intelligence is “the ability to deal with complexity”[10]. Thus in a te st
+of intelligence the most diﬃcult questions are the ones that are the m ost complex
+because these will, by deﬁnition, require the most intelligence to solve . It follows then
+that if we could formally deﬁne and measure the complexity of test pr oblems we could
+construct a formal test of intelligence. The possibility of doing this w as perhaps ﬁrst
+suggested by the complexity theorist Chaitin [5]. While this path requir es numerous
+diﬃculties to be dealt with, we believe that it is the most natural and oﬀ ers many
+advantages: It is formally motivated, precisely deﬁned and potent ially could be used
+to measure the performance of both computers and biological sys tems on the same
+scale without the problem of bias towards any particular species or c ulture.
+
+--- CHUNK 22 ---
+to measure the performance of both computers and biological sys tems on the same
+scale without the problem of bias towards any particular species or c ulture.
+One intelligence test that is based on formal complexity theory is the C-Test
+from Hern´ andez [13, 14]. This test consists of a number of sequen ce prediction and
+abduction problems similar to those that appear in many standard IQ tests. Similar
+to standard IQ tests, the C-Test always ensures that each ques tion has an unambigu-
+ous answer in the sense that there is always one hypothesis that is c onsistent with
+the observed pattern that has signiﬁcantly lower complexity than t he alternatives.
+The key diﬀerence to sequence problems that appear in standard in telligence tests is
+that the questions are based on a formally expressed measure of c omplexity, namely
+Levin’s computable Kt complexity [20] (rather than Kolmogorov’s incomputable
+complexity [21]) to get a practical test. In order to retain the invar iance property of
+
+--- CHUNK 23 ---
+Levin’s computable Kt complexity [20] (rather than Kolmogorov’s incomputable
+complexity [21]) to get a practical test. In order to retain the invar iance property of
+Kolmogorov complexity, Levin complexity requires the additional ass umption that
+the universal Turing machines are able to simulate each other in linear time.
+The test has been successfully applied to humans with intuitively reas onable
+results [14, 12]. As far as we know, this is the only formal deﬁnition of intelligence
+that has so far produced a usable test of intelligence.
+One criticism of the C-Test and Smith’s tests is that the way intelligenc e is
+measured is essentially static, that is, the environments are passiv e. We believe that
+dynamic testing in active environments is a better measure of a syst em’s intelligence.
+To put this argument another way: Succeeding in the real world req uires you to be
+more than an insightful spectator! One must carefully choose act ions knowing that
+these may aﬀect the future.
+
+--- CHUNK 24 ---
+To put this argument another way: Succeeding in the real world req uires you to be
+more than an insightful spectator! One must carefully choose act ions knowing that
+these may aﬀect the future.
+10 Universal intelligence
+Another complexity based test is the universal intelligence test [19]. Unlike the
+C-Test and Smith’s test, universal intelligence tests the performa nce of an agent in
+a fully interactive environment. This is done by using the reinforceme nt learning
+framework in which the agent sends its actions to the environment and receives
+observations and rewards back. The agent tries to maximise the amount of reward
+7
+it receives by learning about the structure of the environment and the goals it needs
+to accomplish in order to receive rewards.
+Formally, the process of interaction produces an increasing histor y
+o1r1a1o2r2a2o3r3a3o4 . . . of observations o, rewards r ≥ 0, and actions a. The agent
+
+--- CHUNK 25 ---
+to accomplish in order to receive rewards.
+Formally, the process of interaction produces an increasing histor y
+o1r1a1o2r2a2o3r3a3o4 . . . of observations o, rewards r ≥ 0, and actions a. The agent
+is simply a function, denoted by π, which is a probability measure over actions con-
+ditioned on the current history, for example, π(a3|o1r1a1o2r2). The environment,
+denoted µ, is similarly deﬁned: µ(okrk|o1r1a1o2r2a2 . . . ok−1rk−1ak−1). The perfor-
+mance of agent π in environment µ can be measured by its total expected reward
+V πµ := E[∑∞i=1 ri|µ, π], called value. The largest interesting class of environments is
+the class E of all computable probability distributions µ. For technical reasons, the
+values are assumed to be bounded by some constant c.
+To get a single performance measure V πµ is averaged over all µ ∈ E. As there
+are an inﬁnite number of environments, with no bound on their comple xity, it is
+impossible to take the expected value with respect to a uniform distr ibution —
+
+--- CHUNK 26 ---
+are an inﬁnite number of environments, with no bound on their comple xity, it is
+impossible to take the expected value with respect to a uniform distr ibution —
+some environments must be weighted more heavily than others. Con sidering the
+agent’s perspective on the problem, it is the same as asking: Given se veral diﬀerent
+hypotheses which are consistent with the observations, which hyp othesis should be
+considered the most likely? This is a fundamental problem in inductive in ference for
+which the standard solution is to invoke Occam’s razor: Given multiple hypotheses
+which are consistent with the data, simpler ones should be pr eferred. As this is gen-
+erally considered the most intelligent thing to do, one should test age nts in such a
+way that they are, at least on average, rewarded for correctly a pplying Occam’s ra-
+zor. This means that the a priori distribution over environments sh ould be weighted
+towards simpler environments.
+
+--- CHUNK 27 ---
+way that they are, at least on average, rewarded for correctly a pplying Occam’s ra-
+zor. This means that the a priori distribution over environments sh ould be weighted
+towards simpler environments.
+As each environment µ is described by a computable measure, their complexity
+can be measured with Kolmogorov complexity K(µ), which is simply the length of
+the shortest program that computes µ [21]. The right a priori weight for µ is 2 −K(µ).
+We can now deﬁne the universal intelligence of an agent π to simply be its expected
+performance,
+Υ(π) :=
+∑
+µ∈E
+2−K(µ)V πµ .
+By construction, universal intelligence measures the general abilit y of an agent to
+perform well in a very wide range of environments, similar to the esse nce of many
+informal deﬁnitions of intelligence [18]. The deﬁnition places no restric tions on
+the internal workings of the agent; it only requires that the agent is capable of
+generating output and receiving input which includes a reward signal. If we wish
+
+--- CHUNK 28 ---
+the internal workings of the agent; it only requires that the agent is capable of
+generating output and receiving input which includes a reward signal. If we wish
+to bias the test to reﬂect world knowledge then we can condition the complexity
+measure. For example, use K(µ|D) where D is some set of background knowledge
+such as Wikipedia.
+By considering V πµ for a number of basic environments, such as small MDPs,
+and agents with simple but very general optimisation strategies, it is clear that
+Υ correctly orders the relative intelligence of these agents in a natu ral way. A
+very high value of Υ would imply that an agent is able to perform well in ma ny
+8
+environments. The maximal agent with respect to Υ is the theoretic al AIXI agent
+which has been shown to have many strong optimality properties [16 ]. These results
+conﬁrm that agents with high universal intelligence are indeed very p owerful and
+adaptable. Universal intelligence spans simple adaptive agents right up to super
+
+--- CHUNK 29 ---
+conﬁrm that agents with high universal intelligence are indeed very p owerful and
+adaptable. Universal intelligence spans simple adaptive agents right up to super
+intelligent agents like AIXI. The test is completely formally speciﬁed in t erms of
+fundamental concepts such as universal Turing computation and complexity and
+thus is not anthropocentric.
+A test based on Υ would evaluate the performance of an agent on a la rge sample
+of simulated environments, and then combine the agent’s performa nce in each envi-
+ronment into an overall intelligence value. The key challenge that nee ds to be dealt
+with is to ﬁnd a suitable replacement for the incomputable Kolmogorov complexity
+function, possibly Levin’s Kt complexity [20], as is done by the C-Test.
+11 Summary
+We end this survey with a comparison of the various tests considere d. Table 1 rates
+each test according to the properties described below. Although w e have attempted
+
+--- CHUNK 30 ---
+11 Summary
+We end this survey with a comparison of the various tests considere d. Table 1 rates
+each test according to the properties described below. Although w e have attempted
+to be as fair as possible, some of the scores we give on this table will na turally be
+debatable. Nevertheless, we hope that it provides a rough overvie w of the relative
+strengths and weaknesses of the proposals.
+Valid: A test of intelligence should capture intelligence and not some relate d
+quantity. Informative: The result should be a scalar value, or perhaps a vector.
+Wide range : A test should cover low levels of intelligence up to super intelligence.
+General: Ideally we would like to have a very general test that could be applied
+to everything from a ﬂy to a machine learning algorithm. Dynamic: A test should
+directly take into account the ability to learn and adapt over time. Unbiased: A test
+should not be biased towards any particular culture, species, etc. Fundamental: We
+
+--- CHUNK 31 ---
+directly take into account the ability to learn and adapt over time. Unbiased: A test
+should not be biased towards any particular culture, species, etc. Fundamental: We
+do not want a test that needs to be changed from time to time due to changing tech-
+nology and knowledge. Formal: The test should be precisely deﬁned, ideally using
+mathematics. Objective: The test should not appeal to subjective assessments such
+as the opinions of human judges. Fully Deﬁned : Has the test been fully deﬁned, or
+are parts still unspeciﬁed? Universal : Is the test universal, or is it anthropocentric?
+Practical: A test should be able to be performed quickly and automatically. Test vs.
+Def : Finally we note whether the proposal is more of a test, more of a de ﬁnition,
+or something in between.
+Acknowledgements.
+This work was supported by the Swiss NSF grant 200020-107616.
+9
+Table 1: In the table /CIRCLE means “yes”, • means “debatable”, · means “no”, and ?
+
+--- CHUNK 32 ---
+or something in between.
+Acknowledgements.
+This work was supported by the Swiss NSF grant 200020-107616.
+9
+Table 1: In the table /CIRCLE means “yes”, • means “debatable”, · means “no”, and ?
+means unknown. When something is rated as unknown that is usually b ecause the
+test in question is not suﬃciently speciﬁed.
+Intelligence Test
+ValidInformativeWide RangeGeneralDynamicUnbiasedFundamentalFormalObjectiveFully DeﬁnedUniversalPracticalTest vs. Def.
+Turing Test • · · · • · · · · • · • T
+Total Turing Test • · · · • · · · · • · · T
+Inverted Turing Test • • · · • · · · · • · • T
+Toddler Turing Test • · · · • · · · · · · • T
+Linguistic Complexity • /CIRCLE • · · · · • • · • • T
+Text Compression Test • /CIRCLE /CIRCLE • · • • /CIRCLE /CIRCLE /CIRCLE • /CIRCLE T
+Turing Ratio • /CIRCLE /CIRCLE /CIRCLE ? ? ? ? ? · ? ? T/D
+Psychometric AI /CIRCLE /CIRCLE • /CIRCLE ? • · • • • · • T/D
+Smith’s Test • /CIRCLE /CIRCLE • · ? /CIRCLE /CIRCLE /CIRCLE · ? • T/D
+
+--- CHUNK 33 ---
+Turing Ratio • /CIRCLE /CIRCLE /CIRCLE ? ? ? ? ? · ? ? T/D
+Psychometric AI /CIRCLE /CIRCLE • /CIRCLE ? • · • • • · • T/D
+Smith’s Test • /CIRCLE /CIRCLE • · ? /CIRCLE /CIRCLE /CIRCLE · ? • T/D
+C-Test • /CIRCLE /CIRCLE • · /CIRCLE /CIRCLE /CIRCLE /CIRCLE /CIRCLE /CIRCLE /CIRCLE T/D
+Universal Intelligence /CIRCLE /CIRCLE /CIRCLE /CIRCLE /CIRCLE /CIRCLE /CIRCLE /CIRCLE /CIRCLE /CIRCLE /CIRCLE · D
+References
+[1] N. Alvarado, S. Adams, S. Burbeck, and C. Latta. Beyond th e Turing test: Per-
+formance metrics for evaluating a computer simulation of th e human mind. In Per-
+formance Metrics for Intelligent Systems Workshop , Gaithersburg, MD, USA, 2002.
+North-Holland.
+[2] T. C. Bell, J. G. Cleary, and I. H. Witten. Text compression. Prentice Hall, 1990.
+[3] N. Block. Psychologism and behaviorism. Philosophical Review, 90:5–43, 1981.
+[4] S. Bringsjord and B. Schimanski. What is artiﬁcial intel ligence? Psychometric AI
+
+--- CHUNK 34 ---
+[3] N. Block. Psychologism and behaviorism. Philosophical Review, 90:5–43, 1981.
+[4] S. Bringsjord and B. Schimanski. What is artiﬁcial intel ligence? Psychometric AI
+as an answer. Eighteenth International Joint Conference on Artiﬁcial Intel ligence,
+18:887–893, 2003.
+[5] G. J. Chaitin. G¨ odel’s theorem and information. International Journal of Theoretical
+Physics, 22:941–954, 1982.
+[6] D. L. Dowe and A. R. Hajek. A non-behavioural, computatio nal extension to the
+Turing test. In International Conference on Computational Intelligence & Mult imedia
+Applications (ICCIMA ’98) , pages 101–106, Gippsland, Australia, 1998.
+[7] J. Eisner. Cognitive science and the search for intellig ence. Invited paper presented
+to the Socratic Society, University of Cape Town , 1991.
+[8] K. M. Ford and P. J. Hayes. On computational wings: Rethin king the goals of
+artiﬁcial intelligence. Scientiﬁc American, Special Edition(4), 1998.
+
+--- CHUNK 35 ---
+[8] K. M. Ford and P. J. Hayes. On computational wings: Rethin king the goals of
+artiﬁcial intelligence. Scientiﬁc American, Special Edition(4), 1998.
+[9] R. M. French. Subcognition and the limits of the Turing te st. Mind, 99:53–65, 1990.
+10
+[10] L. S. Gottfredson. Why g matters: The complexity of ever yday life. Intelligence,
+24(1):79–132, 1997.
+[11] S. Harnad. Minds, machines and Searle. Journal of Theoretical and Experimental
+Artiﬁcial Intelligence , 1:5–25, 1989.
+[12] J. Hern´ andez-Orallo. Beyond the Turing test. Journal of Logic, Language and Infor-
+mation, 9(4):447–466, 2000.
+[13] J. Hern´ andez-Orallo. On the computational measureme nt of intelligence factors. In
+Performance Metrics for Intelligent Systems Workshop , pages 1–8, Gaithersburg,
+MD, USA, 2000.
+[14] J. Hern´ andez-Orallo and N. Minaya-Collado. A formal d eﬁnition of intelligence based
+on an intensional variant of Kolmogorov complexity. In Proceedings of the Interna-
+
+--- CHUNK 36 ---
+MD, USA, 2000.
+[14] J. Hern´ andez-Orallo and N. Minaya-Collado. A formal d eﬁnition of intelligence based
+on an intensional variant of Kolmogorov complexity. In Proceedings of the Interna-
+tional Symposium of Engineering of Intelligent Systems (EIS’ 98), pages 146–163.
+ICSC Press, 1998.
+[15] J. L. Hutchens. How to pass the Turing test by cheating.
+www.cs.umbc.edu/471/current/papers/hutchens.pdf, 1996.
+[16] M. Hutter. Universal Artiﬁcial Intelligence: Sequential Decisions
+based on Algorithmic Probability . Springer, Berlin, 2005. 300 pages,
+http://www.hutter1.net/ai/uaibook.htm.
+[17] M. Hutter. The Human knowledge compression prize. http://prize.hutter1.net, 2006.
+[18] S. Legg and M. Hutter. A collection of deﬁnitions of inte lligence. In B. Goertzel and
+P. Wang, editors, Advances in Artiﬁcial General Intelligence: Concepts, Archi tectures
+and Algorithms , volume 157 of Frontiers in Artiﬁcial Intelligence and Applications ,
+pages 17–24, Amsterdam, NL, 2007. IOS Press.
+
+--- CHUNK 37 ---
+and Algorithms , volume 157 of Frontiers in Artiﬁcial Intelligence and Applications ,
+pages 17–24, Amsterdam, NL, 2007. IOS Press.
+[19] S. Legg and M. Hutter. A formal measure of machine intell igence. In Proc. 15th An-
+nual Machine Learning Conference of Belgium and The Netherlan ds (Benelearn ’06),
+pages 73–80, Ghent, 2006.
+[20] L. A. Levin. Universal sequential search problems. Problems of Information Trans-
+mission, 9:265–266, 1973.
+[21] M. Li and P. M. B. Vit´ anyi. An introduction to Kolmogorov complexity and its
+applications. Springer, 2nd edition, 1997.
+[22] H. G. Loebner. The Loebner prize — The ﬁrst Turing test.
+http://www.loebner.net/Prizef/loebner-prize.html, 1990.
+[23] M. V. Mahoney. Text compression as a test for artiﬁcial i ntelligence. In AAAI/IAAI,
+1999.
+[24] H. Masum, S. Christensen, and F. Oppacher. The Turing ra tio: Metrics for open-
+ended tasks. In GECCO 2002: Proceedings of the Genetic and Evolutionary Compu-
+
+--- CHUNK 38 ---
+1999.
+[24] H. Masum, S. Christensen, and F. Oppacher. The Turing ra tio: Metrics for open-
+ended tasks. In GECCO 2002: Proceedings of the Genetic and Evolutionary Compu-
+tation Conference, pages 973–980, New York, 2002. Morgan Kaufmann Publishers .
+11
+[25] P. Sanghi and D. L. Dowe. A computer program capable of pa ssing I.Q. tests. In Proc.
+4th ICCS International Conference on Cognitive Science (ICCS’03) , pages 570–575,
+Sydney, NSW, Australia, 2003.
+[26] A. Saygin, I. Cicekli, and V. Akman. Turing test: 50 year s later. Minds and Machines ,
+10, 2000.
+[27] P. Schweizer. The truly total Turing test. Minds and Machines , 8:263–272, 1998.
+[28] J. Searle. Minds, brains, and programs. Behavioral & Brain Sciences , 3:417–458,
+1980.
+[29] S. Shieber. Lessons from a restricted Turing test. CACM: Communications of the
+ACM, 37, 1994.
+[30] W. D. Smith. Mathematical deﬁnition of “intelligence” (and consequences).
+http://math.temple.edu/∼ wds/homepage/works.html, 2006.
+
+--- CHUNK 39 ---
+ACM, 37, 1994.
+[30] W. D. Smith. Mathematical deﬁnition of “intelligence” (and consequences).
+http://math.temple.edu/∼ wds/homepage/works.html, 2006.
+[31] A. Treister-Goren, J. Dunietz, and J. L. Hutchens. The d evelopmental approach to
+evaluating artiﬁcial intelligence – a proposal. In Performance Metrics for Intelligence
+Systems, 2000.
+[32] A. Treister-Goren and J. L. Hutchens. Creating AI: A uni que interplay between the
+development of learning algorithms and their education. In Proceeding of the First
+International Workshop on Epigenetic Robotics , 2001.
+[33] A. M. Turing. Computing machinery and intelligence. Mind, October 1950.
+[34] P. Voss. Essentials of general intelligence: The direc t path to AGI. In B. Goertzel
+and C. Pennachin, editors, Artiﬁcial General Intelligence . Springer-Verlag, 2005.
+[35] S. Watt. Naive psychology and the inverted Turing test. Psycoloquy, 7(14), 1996.
+12
+

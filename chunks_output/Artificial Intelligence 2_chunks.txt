@@ -1,0 +1,995 @@
+--- CHUNK 1 ---
+Preprint accepted for publication at KI - K¨ unstliche Intelligenz
+Special Issue on Developmental Robotics - DOI: 10.1007/s13218-020-00696-1
+Intelligent behavior depends on the ecological niche
+Scaling up AI to human-like intelligence in socio-cultural environments
+Manfred Eppe ∗ · Pierre-Yves Oudeyer
+Abstract This paper outlines a perspective on the fu-
+ture of AI, discussing directions for machines models
+of human-like intelligence. We explain how develop-
+mental and evolutionary theories of human cognition
+should further inform artiﬁcial intelligence. We empha-
+size the role of ecological niches in sculpting intelligent
+behavior, and in particular that human intelligence was
+fundamentally shaped to adapt to a constantly chang-
+ing socio-cultural environment. We argue that a major
+limit of current work in AI is that it is missing this
+perspective, both theoretically and experimentally. Fi-
+nally, we discuss the promising approach of develop-
+
+--- CHUNK 2 ---
+limit of current work in AI is that it is missing this
+perspective, both theoretically and experimentally. Fi-
+nally, we discuss the promising approach of develop-
+mental artiﬁcial intelligence, modeling infant develop-
+ment through multi-scale interaction between intrin-
+sically motivated learning, embodiment and a fastly
+changing socio-cultural environment. This paper takes
+the form of an interview of Pierre-Yves Oudeyer by
+Mandred Eppe, organized within the context of a KI
+- K¨ unstliche Intelligenz special issue in developmental
+robotics.
+Keywords developmental AI · general artiﬁcial
+intelligence · human-like AI · embodiment · evolution ·
+language · socio-cultural skills
+1 Is it useful to talk about strong and weak AI?
+ME: So what’s the diﬀerence between strong and weak
+AI? What the broader public understands by AI is more
+the weak AI. So what is it that makes AI strong, and
+how is that related to your research?
+∗Manfred Eppe
+Department of Informatics
+
+--- CHUNK 3 ---
+AI? What the broader public understands by AI is more
+the weak AI. So what is it that makes AI strong, and
+how is that related to your research?
+∗Manfred Eppe
+Department of Informatics
+Universit¨ at Hamburg, Germany
+E-mail: eppe@informatik.uni-hamburg.de
+PYO: That’s an interesting question. First of all, I
+would like to say that I am not a big fan of the strong
+versus weak AI concept. I would say that for many
+people, when they speak about ’weak AI’, they refer
+to techniques allowing to detect shallow relations be-
+tween a number of quantities, and used to predict what
+will happen in the future without really understanding
+what’s happening. Whereas maybe some other people
+call ’strong AI’ some kind of imaginary AI that is a bit
+like the concept of AGI – Artiﬁcial General Intelligence.
+They intuitively deﬁne it as an intelligence that is going
+to be good at everything and be able to solve problems
+of unbounded complexity.
+I don’t like this distinction because, ﬁrst of all, I
+
+--- CHUNK 4 ---
+They intuitively deﬁne it as an intelligence that is going
+to be good at everything and be able to solve problems
+of unbounded complexity.
+I don’t like this distinction because, ﬁrst of all, I
+don’t think there is some kind of natural ordering of
+intelligences as is suggested by the ’strong versus weak’
+idea, which is some kind of linear scale in which some AI
+would be on top of another. It has the same problems as
+trying to order the intelligences of animals. And second,
+I don’t like it because I think that the AGI concept,
+behind the strong AI concept, is something that does
+not exist. Why so?
+“[W]hat counts is [...] to realize that each kind of
+intelligence is suited to its environment.”
+I do believe, if you look at the world of living organ-
+isms in nature, that there is not one scale of intelligence:
+rather there is a diversity of intelligences. And each
+form of intelligence is adapted to the ecological niche in
+which it is living. It has been evolving over quite long
+
+--- CHUNK 5 ---
+rather there is a diversity of intelligences. And each
+form of intelligence is adapted to the ecological niche in
+which it is living. It has been evolving over quite long
+time to solve a particular family of problems that ap-
+pear in their particular ecological niche. For example,
+ants have to solve problems which are very diﬀerent
+from the ones solved by dogs which are very diﬀerent
+from the ones solve by birds which are very diﬀerent
+from the problems solved by humans. And there is no
+arXiv:2103.06769v1  [cs.AI]  11 Mar 2021
+2 Manfred Eppe ∗, Pierre-Yves Oudeyer
+natural ordering for this. So for example, the problems
+that ants are solving for being able to live in very ex-
+treme climatic and chemical environments is something
+that humans are very bad at. If you want to do an order-
+ing from the point of view of ants, human intelligence is
+not so good. And it is the same for many other animals.
+For example, you have animals which need to have a
+
+--- CHUNK 6 ---
+ing from the point of view of ants, human intelligence is
+not so good. And it is the same for many other animals.
+For example, you have animals which need to have a
+very developed intelligence about ﬁguring out the odor
+of things because they need to evolve in environments
+where vision is basically useless. And so they need to
+use senses related to smelling in a much more developed
+way than human beings. Again, from the point of view
+of these animals, the intelligence of other animals with-
+out those senses is basically very low. So what counts
+is actually not so much to classify the intelligences on a
+single scale but to realize that each kind of intelligence
+is suited to its environment.
+One key question behind this is: what is special
+about human intelligence? Rather than AGI, I prefer
+the concept of human-like intelligence (HLI), which is
+actually what some people understand intuitively when
+speaking about AGI. But human intelligence is not gen-
+
+--- CHUNK 7 ---
+the concept of human-like intelligence (HLI), which is
+actually what some people understand intuitively when
+speaking about AGI. But human intelligence is not gen-
+eral at all. There are many, many problems at which we
+are very bad.
+2 Human-like intelligence
+Basically, to understand what is special about human
+intelligence, I think one needs to look at what is spe-
+cial about the ecological niche of the environment in
+which we are living. I think there are a few properties
+which are pretty important to understand the intelli-
+gence of humans. It’s that their environment is charac-
+terized by others, by the social interactions with others,
+and that these social interactions continuously change
+through cultural evolution. Cultural evolution is basi-
+cally the capability of human societies to not only learn
+novel concepts, novel ideas, invent new tools, but also to
+share these inventions and transmit them to future gen-
+erations. This process of transmission causes high speed
+
+--- CHUNK 8 ---
+novel concepts, novel ideas, invent new tools, but also to
+share these inventions and transmit them to future gen-
+erations. This process of transmission causes high speed
+change of the social, cognitive, emotional environment
+to which all humans are exposed. And this continu-
+ally evolving socio-cultural environment is essential in
+deﬁning the problems humans need to solve 1. It’s not
+like the ants, for example. The ants also have the rich
+social environment, but it is not constantly changing.
+There is no cultural evolution in ants. This is causing a
+special family of problems that humans need to solve,
+and in particular young humans who need to be able
+to learn continuously new rules for new games, new so-
+1 For discussions about the co-evolution of human cognition
+and socio-cultural structures, see [31, 8, 13, 33]
+cial games of interaction. This is a key dimension of the
+human environment, which I think is central to under-
+stand the human intelligence. And any machine aimed
+
+--- CHUNK 9 ---
+cial games of interaction. This is a key dimension of the
+human environment, which I think is central to under-
+stand the human intelligence. And any machine aimed
+to be ’intelligent’ in the human world would need to be
+able to deal with this rich fastly changing socio-cultural
+environment.
+“Any machine aimed to be ’intelligent’ in the human
+world would need to be able to deal with this rich fastly
+changing socio-cultural environment.”
+Something that comes with cultural evolution is
+that humans are basically a species which is continu-
+ously making discoveries and inventions. This is thanks
+to the use of language, which is one of the main carrier
+of cultural evolution. Language allows to transmit in-
+ventions to others, but it is also used as a tool to make
+discoveries2). That’s very important because one of the
+key properties of human cognition is the ability to con-
+tinuously invent new tools. Not only physical tools, like
+rakes or knives, but also cognitive tools such as nat-
+
+--- CHUNK 10 ---
+key properties of human cognition is the ability to con-
+tinuously invent new tools. Not only physical tools, like
+rakes or knives, but also cognitive tools such as nat-
+ural languages, or formal languages, like mathematics.
+These cognitive tools have enabled the ratcheting eﬀect
+of cultural evolution, which has enabled individuals to
+really expand the range of their discoveries. I think the
+combination of cultural evolution and the ability to con-
+tinuously invent new tools, in particular new cognitive
+tools, is something that is very, very peculiar to the
+human species.
+Human intelligence is basically optimized to be able
+to continuously adapt to its evolving cultural environ-
+ment. And this cultural adaptation in turn leads to fur-
+ther change of the environment, forming a loop that is
+at the core of an open-ended growth of complexity. This
+probably leads to the need to be able to invent cogni-
+tive tools, to learn and negotiate new rules of social
+
+--- CHUNK 11 ---
+at the core of an open-ended growth of complexity. This
+probably leads to the need to be able to invent cogni-
+tive tools, to learn and negotiate new rules of social
+interaction. Understanding the mechanisms in this self-
+organizing complex system is one of the objectives of my
+approach to AI. I view AI as a tool that can enable us
+to understand the human species better. As a cognitive
+tool enabling me to understand something about our
+human environment, and enabling me to grasp some of
+the special properties of humans: their capability to in-
+vent and use cognitive tools to understand better their
+(social) environment, and transmit them to others.
+2 For discussions on various ways in which language is used
+as a cognitive tool, see [32, 6, 10]; For an artiﬁcial intelligence
+architecture modeling the use of language as a cognitive tool
+for driving creative discoveries in curiosity-driven exploration,
+see [7]
+Intelligent behavior depends on the ecological niche 3
+
+--- CHUNK 12 ---
+architecture modeling the use of language as a cognitive tool
+for driving creative discoveries in curiosity-driven exploration,
+see [7]
+Intelligent behavior depends on the ecological niche 3
+3 The role of embodiment
+“I don’t think we can say very general statements about
+whether embodiment is needed for intelligence. I think
+it’s rather that for some particular organisms in
+certain environments embodiment is absolutely central,
+and for other kinds of organism, in some other kinds
+of environments, maybe it is less central.”
+ME: Does this imply that an intelligent agent actu-
+ally requires a body? For example, can there be intelli-
+gence in a chatbot? A chatbot doesn’t really have a body,
+it has actions and perception and so on. But where are
+the limits and what kind of properties must an agent
+have to develop intelligent behavior? What’s the mini-
+mum?
+Again, I think we need to put in perspective the
+question of whether something is needed for intelli-
+
+--- CHUNK 13 ---
+have to develop intelligent behavior? What’s the mini-
+mum?
+Again, I think we need to put in perspective the
+question of whether something is needed for intelli-
+gence. I think it needs to be reframed in the context of
+the families of problems that a particular intelligence
+is supposed to solve in a particular family of environ-
+ments. For example, human-like intelligence happens
+in the physical world and it’s about controlling physi-
+cal bodies in a physical environment with social beings
+in addition to physical objects.
+This embodiment is a fundamental part of the prob-
+lem solved by the intelligence. But it also is a funda-
+mental part of the solution because the body itself has
+evolved through phylogenetic evolution in order to fa-
+cilitate the capacity of the organism to adapt to the
+problems of its environment [26]. For example, if we
+look at language and we want to understand how hu-
+mans understand language, we really quickly see that
+
+--- CHUNK 14 ---
+problems of its environment [26]. For example, if we
+look at language and we want to understand how hu-
+mans understand language, we really quickly see that
+the properties of embodiment and how it is structurally
+aligned with the environment has a fundamental impor-
+tance in the way to conceptualize meanings 3. Many of
+the meanings that are expressed by language are de-
+ﬁned in terms of the relationships between the body’s
+repertoire of actions and the eﬀects they can produce in
+the environment. Meanings of sentences and meanings
+of words are relational entities that relate properties
+of the body and action repertoire with properties of
+the environment. Obviously, a system which has not a
+body with the fundamental properties of the speciﬁc
+body of humans will have very big diﬃculties to under-
+stand language in the same way as humans understand
+language.
+Maybe in some other environments, there are enti-
+ties which have to solve diﬀerent families of problems in
+
+--- CHUNK 15 ---
+stand language in the same way as humans understand
+language.
+Maybe in some other environments, there are enti-
+ties which have to solve diﬀerent families of problems in
+3 See [18], as well as [5] for a research roadmap in devel-
+opmental robotics studying the embodied language learning
+perspective.
+which embodiment is less essential. In that case, maybe
+embodiment is going to be less a problem and also less
+a solution because the world in which those entities
+are living is less relevant to physics. I don’t think we
+can say very general statements about whether embod-
+iment is needed for intelligence. I think it’s rather that
+for some particular organisms in certain environments
+embodiment is absolutely central, and for other kinds of
+organism, in some other kinds of environments, maybe
+it is less central.
+ME: You say that social interaction like language
+and speech is, at least for human-level intelligence [...],
+a necessary property. Would you say that some artiﬁ-
+
+--- CHUNK 16 ---
+it is less central.
+ME: You say that social interaction like language
+and speech is, at least for human-level intelligence [...],
+a necessary property. Would you say that some artiﬁ-
+cial agent could be intelligent without any social inter-
+action?
+Again, I would reformulate the other way around.
+I think that one of the key problems that human in-
+telligence is solving is dealing with social interaction.
+Of course, you can imagine some other worlds. Actu-
+ally, there are animals on this planet that have a rather
+poor social life and still they are able to do amazing
+things. It doesn’t mean that they are not intelligent.
+From the point of view of their environment, they are
+extremely intelligent, they are extremely adaptive, it’s
+just that they don’t need to solve this problem of social
+interaction. As I was saying initially, one of the spe-
+ciﬁc problems that is implied by being able to live in a
+culturally evolving system is the ability to adapt con-
+
+--- CHUNK 17 ---
+interaction. As I was saying initially, one of the spe-
+ciﬁc problems that is implied by being able to live in a
+culturally evolving system is the ability to adapt con-
+tinuously to changes in the environment and to invent
+new things.
+4 Towards artiﬁcial learning systems with
+human-like intelligence
+“I think what is missing in the current picture is an
+ecosystem [...] for evaluating machine learning systems
+[...] with respect to [...] targeting human-like
+intelligence.”
+It’s interesting that right now a big focus of the AI
+community is on machine learning, studying how arti-
+ﬁcial agents might be able to learn novel things. The
+frontier of this ﬁeld is, in a way, life-long learning, to
+continuously learn new things in an extended period
+of time. I think what is missing in the current picture
+is an ecosystem that is relevant for training and then
+evaluating those machine learning systems and assess-
+ing their relevance, for example, with respect to tar-
+
+--- CHUNK 18 ---
+is an ecosystem that is relevant for training and then
+evaluating those machine learning systems and assess-
+ing their relevance, for example, with respect to tar-
+geting human-like intelligence. If you look, for exam-
+ple, at most of the benchmarks that currently exist in
+4 Manfred Eppe ∗, Pierre-Yves Oudeyer
+the ﬁeld of deep reinforcement learning, which is about
+how to make sequences of decisions to solve problems:
+How many of them involve solving complex behavioral
+problems related to social interaction? Very little! It’s
+only very recently that people have began to become
+interested in language grounding in this community of
+machine learning. Things are developing, but it is still
+very primitive as compared to the real social problems
+that are solved by humans.
+ME: It would be a very valuable contribution, for in-
+stance, for the development of robotics, to develop new
+benchmark environments which feature this open-ended
+learning, right?
+
+--- CHUNK 19 ---
+ME: It would be a very valuable contribution, for in-
+stance, for the development of robotics, to develop new
+benchmark environments which feature this open-ended
+learning, right?
+Yes. Developmental robotics, long before machine
+learning, has for more than two decades being focus-
+ing on those problems of how machines can adapt and
+learn interaction with social peers [4, 16, 30]. People
+have studied for those two decades, for example, how
+children can learn basic social interaction skills such as
+joint attention [3, 14, 21]. Also, the problem of language
+grounding has been studied already 20 or 30 years ago,
+even before developmental robotics started as a ﬁeld
+[28, 29, 27].
+What’s interesting to see is that, initially, those
+concepts were rather studied from the point of view
+of really modeling directly human intelligence. I think
+this was really the right way to go. Generally, ma-
+chine learning has ignored all these conceptual thinking,
+
+--- CHUNK 20 ---
+of really modeling directly human intelligence. I think
+this was really the right way to go. Generally, ma-
+chine learning has ignored all these conceptual thinking,
+which is mixing computational modeling, developmen-
+tal psychology, developmental cognitive neuroscience.
+They have ignored this for a very long time and they
+are slowly rediscovering many of those old concepts,
+which are very, very fundamental. Hopefully now, by
+leveraging and rediscovering these concepts, there is a
+great opportunity for AI: very modern and eﬃcient ma-
+chine learning techniques that exist, but which so far
+have not been developed and assessed in the right en-
+vironmental context, could now be adapted and used
+in the right ecosystem of problems that are relevant
+for humans. This emerging convergence between devel-
+opmental robotics and machine learning, which I like
+to call ”developmental machine learning”, or ”develop-
+mental AI”, is really exciting!
+5 Interdisciplinary synergies between AI and
+
+--- CHUNK 21 ---
+opmental robotics and machine learning, which I like
+to call ”developmental machine learning”, or ”develop-
+mental AI”, is really exciting!
+5 Interdisciplinary synergies between AI and
+cognitive sciences
+“This emerging convergence between developmental
+robotics and machine learning, which I like to call
+”developmental machine learning”, or ”developmental
+AI”, is really exciting!”
+ME: Obviously, neuroscience, psychology, and cog-
+nitive science has learned a lot from AI and vice versa.
+What do you think are the biggest chances here? What
+does AI have that neurosciences, psychology, and cog-
+nitive sciences can learn most from. Or the other way
+around. Can you give an example?
+There are many things 4. I will use my own work as
+an example. Psychologists have been discussing the idea
+that the brain might be motivated to explore novel sit-
+uations or changing situations for many, many decades.
+Already in the ’40s and the ’50s, there were psycholo-
+
+--- CHUNK 22 ---
+that the brain might be motivated to explore novel sit-
+uations or changing situations for many, many decades.
+Already in the ’40s and the ’50s, there were psycholo-
+gists like Daniel Berlyne who proposed to conceptualize
+curiosity [2]. They proposed that it might be a very
+fundamental mechanism to understand how children
+grow up and develop intelligence. For many decades,
+this concept remained expressed in a verbal manner,
+without being very well formalized. As a consequence,
+it was little considered in psychology, neuroscience and
+AI, even though Berlyne, Piaget and others said that it
+is probably very important for the long-term cognitive
+development of children. Also, it had not clearly been
+identiﬁed what could be its potential role in learning
+and development.
+With a few labs in the world, when we began at the
+beginning of the 21st century to study and to model
+the concept of curiosity, what we were really interested
+in was to understand the underlying mechanisms and
+
+--- CHUNK 23 ---
+beginning of the 21st century to study and to model
+the concept of curiosity, what we were really interested
+in was to understand the underlying mechanisms and
+how they could drive aspects of the development of cog-
+nition and sensorimotor skills 5. The ﬁrst thing we did
+was to formalize the space of potential mechanisms [23]
+and then to develop a series of experiments to try to
+understand the consequences of using these kinds of
+mechanisms. We discovered that one form of curios-
+ity mechanisms, which we named the ’learning progress
+hypothesis’ had very interesting properties[15]: these
+mechanisms basically lead the brain to explore learning
+situations (e.g. actions, goals or people) which enable to
+improve predictions or control about the world. What
+we actually discovered is that these curiosity mecha-
+nisms, when you use them in an embodied system and
+you let this system run for a long period of time, it
+4 For a review, see [22]
+5 See [1, 25] for early modeling works on this topic
+
+--- CHUNK 24 ---
+nisms, when you use them in an embodied system and
+you let this system run for a long period of time, it
+4 For a review, see [22]
+5 See [1, 25] for early modeling works on this topic
+Intelligent behavior depends on the ecological niche 5
+self-organizes developmental trajectories with phases of
+increasing complexity that have special properties not
+preprogrammed in the system. At the beginning, there
+was no blueprint of these schedules. These schedules are
+really something emergent and we were able to discover
+that they share many structural properties with infant
+development of sensorimotor and cognitive skills. For
+example, for the case of vocal development, we were
+able to show that if you put this system into an artiﬁ-
+cial vocal tract, it will automatically generate a curricu-
+lum of learning [20]. The phases are very, very similar
+to the phases of vocal development we observed in in-
+fants. We later conducted other experiments showing
+
+--- CHUNK 25 ---
+lum of learning [20]. The phases are very, very similar
+to the phases of vocal development we observed in in-
+fants. We later conducted other experiments showing
+how such curiosity could lead to the discovery of com-
+plex forms of tool use, also with similarities with human
+developmental trajectories [9].
+Basically, this kind of work enabled not only to gen-
+erate precise hypotheses about the mechanisms of cu-
+riosity. It also enabled to show, to propose the hypothe-
+sis that the moment-to-moment mechanism of curiosity,
+when unrolled on the long-term in an organism, enables
+self-organization of developmental structure, with the
+emergence of major behavioral and cognitive transitions
+[24]. This could actually explain some of the develop-
+mental structures that we know are existing in humans.
+Before, there was no theory that could explain how they
+arise. Now, after we’ve done this computational model-
+ing work, we have those hypotheses. We are not sure it’s
+
+--- CHUNK 26 ---
+Before, there was no theory that could explain how they
+arise. Now, after we’ve done this computational model-
+ing work, we have those hypotheses. We are not sure it’s
+actually working like this in humans, but now, we have
+those hypothesis and we can design new experiments to
+test those predictions. And this is exactly what us and
+other labs in the world are currently doing 6. This is an
+example of how AI can be used as a tool to understand
+better how humans are working.
+“What we actually discovered is that these curiosity
+mechanisms, when you use them in an embodied system
+and you let this system run for a long period of time, it
+self-organizes developmental trajectories with phases of
+increasing complexity that have special properties not
+preprogrammed in the system.”
+I think also AI has been taking already a lot of in-
+sights from cognitive sciences for many decades and
+many others are still to be used. For example, a lot
+in the past has been done about the structure of mem-
+
+--- CHUNK 27 ---
+sights from cognitive sciences for many decades and
+many others are still to be used. For example, a lot
+in the past has been done about the structure of mem-
+ories. Cognitive science, psychology and neuroscience
+have been knowing for a very long time that in the hu-
+man brain, there are diﬀerent forms of memories. These
+have diﬀerent functionalities and diﬀerent structures.
+These ideas have inspired several generations of AI re-
+searchers to put diﬀerent kinds of memories in their
+6 See [11, 17] for reviews of recent developments in psychol-
+ogy and neuroscience
+systems. For example, when we look right now at deep
+reinforcement learning systems 7, they need some forms
+of episodic memories. For example, in the form of replay
+buﬀers with other forms of more parametric memories
+or more declarative memories. That’s a bit like what’s
+happening in the human brain.
+“You have many people right now who are focusing on
+enabling an AI system to master a very complicated
+
+--- CHUNK 28 ---
+or more declarative memories. That’s a bit like what’s
+happening in the human brain.
+“You have many people right now who are focusing on
+enabling an AI system to master a very complicated
+adult-like language, but very little people are actually
+trying to see how one can enable complex social
+reasoning capacities in artiﬁcial systems, which are
+there well before language in infants.”
+I think that this is something that was initially in-
+spired a lot from cognitive sciences. There are other
+things which cognitive sciences, and psychology, and
+neuroscience have known for a long time and which are
+still very little exploited in AI and machine learning.
+For example, if we go back to the question of cultural
+evolution and social interaction, we know that there are
+important complex skills that are developed by very
+young children. For example, the ability to build men-
+tal models of others, to have a motivation to help oth-
+ers, and to be altruistic in social interaction. Michael
+
+--- CHUNK 29 ---
+young children. For example, the ability to build men-
+tal models of others, to have a motivation to help oth-
+ers, and to be altruistic in social interaction. Michael
+Tomasello [31], among others, has shown that very, very
+early on, infants who have very limited understanding
+of language, they can already understand in a very ad-
+vanced manner social situations in which they guess the
+goals of others. They can anticipate what others are
+going to do next, and they can spontaneously propose
+to help them. These are incredible feats of the human
+mind. It is amazing that humans are doing this even
+before they master advanced language.
+You have many people right now who are focusing
+on enabling an AI system to master a very complicated
+adult-like language, but very little people are actually
+trying to see how one can enable complex social rea-
+soning capacities in artiﬁcial systems, which are there
+well before language in infants. By the way, maybe very
+
+--- CHUNK 30 ---
+trying to see how one can enable complex social rea-
+soning capacities in artiﬁcial systems, which are there
+well before language in infants. By the way, maybe very
+important for language grounding, it is not only key
+to understand how meanings are grounded in relations
+between the body and physical objects, but also in re-
+lations between oneself and others in a social context
+with joint goals. Language is a tool that enables hu-
+mans to achieve joint goals. To understand language
+and its use, it seems it’s quite important that agents
+understand the concept of joint goals and coordination
+with others.
+7 See [12] for a review on how recent work in deep learning
+takes inspiration from neuroscience.
+6 Manfred Eppe ∗, Pierre-Yves Oudeyer
+6 Future directions and conclusion
+“I have the feeling that there is something to discover
+about the importance of cognitive bottlenecks.”
+ME: Thanks a lot, and I have one concluding ques-
+tion. If you were a young person just starting to study,
+
+--- CHUNK 31 ---
+about the importance of cognitive bottlenecks.”
+ME: Thanks a lot, and I have one concluding ques-
+tion. If you were a young person just starting to study,
+having some knowledge about computer science and
+maybe psychology, what would you start right now? If
+you knew nothing of what you know now, or maybe
+only a little bit, what would be the topic that you would
+tackle?
+That’s a tough question because there are so many
+interesting things. There are dozens of PhD topics I
+would like to do. The diﬃcult thing would be to choose
+one. Rather than giving you the one I think is best,
+maybe I give you an example of what I have been think-
+ing about with my team, and which I think is very inter-
+esting research. Some of the properties of human cog-
+nition are a bit mysterious and strange. For example,
+if you look at properties of working memory, there is a
+bottleneck in human working memory. We cannot hold
+and reason with more than four to six, seven objects or
+
+--- CHUNK 32 ---
+if you look at properties of working memory, there is a
+bottleneck in human working memory. We cannot hold
+and reason with more than four to six, seven objects or
+concepts at the same time. Doing that reasoning with
+more objects or concepts or entities is very, very diﬃcult
+for our brain. This is very strange because our brain is
+so powerful. We have long-term memory that is able to
+retain literally a huge amount of things, way more than
+a machine is able to do today. We are also able to do
+some amazing long-term reﬂection and inferences, but
+yet at the same time, we cannot hold in our head much
+more than ﬁve, six objects. Why is this so? Especially, if
+you look at animals, for example, if you look at certain
+non-human primates. Many of them have a much better
+working memory than we have. Maybe you know this
+experiment with monkeys, where you put them in front
+of a screen and you show numbers at diﬀerent scrambled
+places of the screen from 1 to 10. You show this image
+
+--- CHUNK 33 ---
+experiment with monkeys, where you put them in front
+of a screen and you show numbers at diﬀerent scrambled
+places of the screen from 1 to 10. You show this image
+for a few seconds and then it’s blank. Then you only
+show the empty squares on the screen and you need
+to type in the numbers they contained initially. This
+is completely impossible to do for humans, but that’s
+very easy for many monkeys. They can remember, for a
+short amount of time, a larger number of entities than
+what we can. Yet humans have language, humans have
+cultural evolution, humans have invented mathematics,
+humans have literature, and poetry. I have an intuition
+about this, and I’m not the only one. There is a num-
+ber of people who have also outlined this intuition, for
+example, the famous primatologist Tetsuro Matsuzawa.
+He has proposed the cognitive tradeoﬀ hypothesis [19],
+which states that this bottleneck in the working mem-
+ory of humans might be some kind of constraint that
+
+--- CHUNK 34 ---
+He has proposed the cognitive tradeoﬀ hypothesis [19],
+which states that this bottleneck in the working mem-
+ory of humans might be some kind of constraint that
+has pushed or caused in some way the emergence of a
+number of cognitive tools like language, compositional-
+ity, and all the tools in our cognitive toolkit that en-
+abled the combinatorial discoveries that we make.
+I have the feeling that there is something to discover
+about the importance of cognitive bottlenecks. We have
+huge computational resources, and many people in AI
+focus on trying to exploit it. But on the contrary, if we
+have some constraints on the computational resources,
+then maybe it can have some advantage in terms of de-
+veloping an architecture which is going to be very pow-
+erful in the environment of humans. What I’m saying
+here is still not very precise, but I feel there is some-
+thing very interesting to study here. That would be an
+example of a direction that could be very fruitful to
+study further.
+
+--- CHUNK 35 ---
+here is still not very precise, but I feel there is some-
+thing very interesting to study here. That would be an
+example of a direction that could be very fruitful to
+study further.
+ME: OK, I conclude then that more PhD students
+should start working in this ﬁeld and maybe be not so
+overwhelmed by AI and machine learning hype, but also
+look more into the deeper cognitive mechanisms that
+make humans intelligent.
+Yes, exactly.
+ME: Great! Thank you very much for the interview!
+7 Short Bios
+Pierre-Yves Oudeyer is a research director at Inria
+and head of the Flowers lab at Inria, Univ. Bordeaux
+and Ensta-ParisTech since 2008. The Flowers team
+hosts around 25 researchers at the crossroads of AI,
+machine learning, developmental robotics and cogni-
+tive sciences. From 1999 until 2007, he was a perma-
+nent researcher in Sony Computer Science Laboratory.
+He studies developmen-
+tal autonomous learning
+and the self-organization
+of behavioral and cog-
+nitive structures in hu-
+mans and machines. In
+
+--- CHUNK 36 ---
+nent researcher in Sony Computer Science Laboratory.
+He studies developmen-
+tal autonomous learning
+and the self-organization
+of behavioral and cog-
+nitive structures in hu-
+mans and machines. In
+particular, he studies ex-
+ploration in large open-
+ended spaces, with a fo-
+cus on autonomous goal
+setting, intrinsically moti-
+vated learning, and how
+this can automate curriculum learning. With his team,
+Intelligent behavior depends on the ecological niche 7
+he pioneered curiosity-driven learning algorithms work-
+ing in real world robots (used in Sony Aibo and Qrio hu-
+manoid robots), and showed how the same algorithms
+can be used to personalize sequences of learning activ-
+ities in educational technologies deployed at large in
+schools. He developed theoretical frameworks to under-
+stand better human curiosity and its role in cognitive
+development, and contributed to build an international
+interdisciplinary research community on human curios-
+
+--- CHUNK 37 ---
+stand better human curiosity and its role in cognitive
+development, and contributed to build an international
+interdisciplinary research community on human curios-
+ity. He also studied how machines and humans can in-
+vent, learn and evolve speech communication systems.
+PY Oudeyer has received multiple international
+awards, such as the 2018 Prize Inria from Na-
+tional Academy of Science (France), the 2016 Lifetime
+Achievement Award from the Evolutionary Linguistics
+association, and an ERC Starting Grant (2009). He is
+associate editor of IEEE CIS Newsletter on Cognitive
+and Developmental Systems, the IEEE Transactions on
+Cognitive and Developmental Systems and Frontiers in
+Neurorobotics. He is also actively contributing to dis-
+seminate science towards the general public, by writing
+popular science articles and participating in radio and
+TV programs as well as science exhibitions.
+Dr. Manfred Eppe is a principal investigator and se-
+nior researcher at the Knowledge Technology Group
+
+--- CHUNK 38 ---
+TV programs as well as science exhibitions.
+Dr. Manfred Eppe is a principal investigator and se-
+nior researcher at the Knowledge Technology Group
+at Universit¨ at Hamburg, Germany, since 2017. From
+2015 to 2017 he was a postdoctoral research fel-
+low at the International Computer Science Insti-
+tute at the University of California at Berkeley,
+USA. He was a postdoctoral researcher at the
+Artiﬁcial Intelligence Research Institute, Barcelona,
+Spain, from 2014 to 2015 and obtained his Ph.D.
+from the University of Bremen, Germany, in 2014.
+Manfred Eppe is a reg-
+ular reviewer and author
+of papers for conferences
+in robotics, artiﬁcial in-
+telligence, machine learn-
+ing and cognitive science,
+including IROS, ICDL-
+Epirob, ICANN, IJCAI,
+Transactions on Cogni-
+tive and Developmental
+Systems, IJCNN, Fron-
+tiers in Robotics and AI,
+and Artiﬁcial Intelligence. He has led or is lead-
+ing several research projects funded by the Volkswa-
+gen Stiftung, the German Academic Exchange Service
+
+--- CHUNK 39 ---
+tiers in Robotics and AI,
+and Artiﬁcial Intelligence. He has led or is lead-
+ing several research projects funded by the Volkswa-
+gen Stiftung, the German Academic Exchange Service
+(DAAD) and the German Research Foundation (DFG).
+Manfred Eppe studies the links between Cognitive Sci-
+ences and Artiﬁcial Intelligence. His main interest is
+in representation learning and concept grounding: How
+can embodied (robotic) agents learn to represent their
+environment as a composition of abstract concepts, and
+to perform decision-making based on such abstract rep-
+resentations? He is particularly active in the ﬁelds of re-
+inforcement learning, self-supervised learning and nat-
+ural language processing, combining symbolic and neu-
+ral network-based methods of artiﬁcial intelligence to
+model cognitive processes. Manfred Eppe has inter-
+viewed Pierre-Yves Oudeyer about his perspective on
+the future of more human-like artiﬁcial intelligence.
+References
+
+--- CHUNK 40 ---
+model cognitive processes. Manfred Eppe has inter-
+viewed Pierre-Yves Oudeyer about his perspective on
+the future of more human-like artiﬁcial intelligence.
+References
+1. Gianluca Baldassarre and Marco Mirolli. Intrin-
+sically motivated learning in natural and artiﬁcial
+systems. Springer, 2013.
+2. Daniel E Berlyne. Conﬂict, arousal, and curiosity.
+McGraw-Hill Book Company, 1960.
+3. Cynthia Breazeal and Brian Scassellati. Robots
+that imitate humans. Trends in cognitive sciences,
+6(11):481–487, 2002.
+4. Angelo Cangelosi and Matthew Schlesinger. De-
+velopmental robotics: From babies to robots . MIT
+press, 2015.
+5. Angelo Cangelosi, Giorgio Metta, Gerhard Sagerer,
+Stefano Nolﬁ, Chrystopher Nehaniv, Kerstin Fis-
+cher, Jun Tani, Tony Belpaeme, Giulio Sandini,
+Francesco Nori, et al. Integration of action and
+language knowledge: A roadmap for developmen-
+tal robotics. IEEE Transactions on Autonomous
+Mental Development, 2(3):167–195, 2010.
+6. Andy Clark. Magic words: How language augments
+
+--- CHUNK 41 ---
+language knowledge: A roadmap for developmen-
+tal robotics. IEEE Transactions on Autonomous
+Mental Development, 2(3):167–195, 2010.
+6. Andy Clark. Magic words: How language augments
+human computation. Language and thought: Inter-
+disciplinary themes, pages 162–183, 1998.
+7. C´ edric Colas, Tristan Karch, Nicolas Lair, Jean-
+Michel Dussoux, Cl´ ement Moulin-Frier, Peter Ford
+Dominey, and Pierre-Yves Oudeyer. Language as a
+cognitive tool to imagine goals in curiosity-driven
+exploration. In Neurips 2020, 2020.
+8. Merlin Donald. Origins of the modern mind: Three
+stages in the evolution of culture and cognition .
+Harvard University Press, 1991.
+9. S´ ebastien Forestier and Pierre-Yves Oudeyer. A
+Uniﬁed Model of Speech and Tool Use Early De-
+velopment. In 39th Annual Conference of the Cog-
+nitive Science Society (CogSci) , 2017.
+10. Dedre Gentner. Language as cognitive tool kit: How
+language supports relational thought. American
+psychologist, 71(8):650, 2016.
+
+--- CHUNK 42 ---
+nitive Science Society (CogSci) , 2017.
+10. Dedre Gentner. Language as cognitive tool kit: How
+language supports relational thought. American
+psychologist, 71(8):650, 2016.
+11. Jacqueline Gottlieb and Pierre-Yves Oudeyer. To-
+wards a neuroscience of active sampling and curios-
+ity. Nature Reviews Neuroscience, 19(12):758–770,
+2018.
+8 Manfred Eppe ∗, Pierre-Yves Oudeyer
+12. Demis Hassabis, Dharshan Kumaran, Christo-
+pher Summerﬁeld, and Matthew Botvinick.
+Neuroscience-inspired artiﬁcial intelligence. Neu-
+ron, 95(2):245–258, 2017.
+13. Cecilia Heyes. Pr´ ecis of cognitive gadgets: The cul-
+tural evolution of thinking. Behavioral and Brain
+Sciences, 42, 2019.
+14. Frederic Kaplan and Verena V Hafner. The chal-
+lenges of joint attention. Interaction Studies, 7(2):
+135–169, 2006.
+15. Frederic Kaplan and Pierre-Yves Oudeyer. In
+search of the neural circuits of intrinsic motivation.
+Frontiers in neuroscience, 1:17, 2007.
+16. Frederic Kaplan, Pierre-Yves Oudeyer, and Ben-
+
+--- CHUNK 43 ---
+15. Frederic Kaplan and Pierre-Yves Oudeyer. In
+search of the neural circuits of intrinsic motivation.
+Frontiers in neuroscience, 1:17, 2007.
+16. Frederic Kaplan, Pierre-Yves Oudeyer, and Ben-
+jamin Bergen. Computational models in the debate
+over language learnability. Infant and Child Devel-
+opment: An International Journal of Research and
+Practice, 17(1):55–80, 2008.
+17. Celeste Kidd and Benjamin Y Hayden. The psy-
+chology and neuroscience of curiosity. Neuron, 88
+(3):449–460, 2015.
+18. George Lakoﬀ, Mark Johnson, et al. Philosophy
+in the ﬂesh: The embodied mind and its challenge
+to western thought , volume 640. Basic books New
+York, 1999.
+19. Tetsuro Matsuzawa. Symbolic representation of
+number in chimpanzees. Current opinion in neuro-
+biology, 19(1):92–98, 2009.
+20. Cl´ ement Moulin-Frier, Sao Mai Nguyen, and
+Pierre-Yves Oudeyer. Self-organization of early vo-
+cal development in infants and machines: the role
+of intrinsic motivation. Frontiers in psychology, 4:
+1006, 2014.
+
+--- CHUNK 44 ---
+Pierre-Yves Oudeyer. Self-organization of early vo-
+cal development in infants and machines: the role
+of intrinsic motivation. Frontiers in psychology, 4:
+1006, 2014.
+21. Yukie Nagai. Mechanism for cognitive develop-
+ment. In Cognitive Neuroscience Robotics A, pages
+51–72. Springer, 2016.
+22. Pierre-Yves Oudeyer. On the impact of robotics
+in behavioral and cognitive sciences: from insect
+navigation to human cognitive development. IEEE
+Transactions on Autonomous Mental Development,
+2(1):2–16, 2010.
+23. Pierre-Yves Oudeyer and Frederic Kaplan. What is
+intrinsic motivation? a typology of computational
+approaches. Frontiers in neurorobotics, 1:6, 2009.
+24. Pierre-Yves Oudeyer and Linda B Smith. How evo-
+lution may work through curiosity-driven develop-
+mental process. Topics in Cognitive Science , 8(2):
+492–502, 2016.
+25. Pierre-Yves Oudeyer, Fr´ ed´ eric Kaplan, and Ver-
+ena V Hafner. Intrinsic motivation systems for au-
+tonomous mental development. IEEE transactions
+
+--- CHUNK 45 ---
+492–502, 2016.
+25. Pierre-Yves Oudeyer, Fr´ ed´ eric Kaplan, and Ver-
+ena V Hafner. Intrinsic motivation systems for au-
+tonomous mental development. IEEE transactions
+on evolutionary computation , 11(2):265–286, 2007.
+26. Rolf Pfeifer and Josh Bongard. How the body shapes
+the way we think: a new view of intelligence . MIT
+press, 2006.
+27. Deb K Roy and Alex P Pentland. Learning words
+from sights and sounds: A computational model.
+Cognitive science, 26(1):113–146, 2002.
+28. Jeﬀrey Mark Siskind. Grounding language in per-
+ception. Artiﬁcial Intelligence Review , 8(5-6):371–
+391, 1994.
+29. Luc Steels. Language games for autonomous
+robots. IEEE Intelligent systems , 16(5):16–22,
+2001.
+30. Jun Tani. Exploring robotic minds: actions, sym-
+bols, and consciousness as self-organizing dynamic
+phenomena. Oxford University Press, 2016.
+31. Michael Tomasello. The cultural origins of human
+cognition. Harvard university press, 2009.
+32. L. S. Vygotsky. Tool and Symbol in Child Develop-
+
+--- CHUNK 46 ---
+phenomena. Oxford University Press, 2016.
+31. Michael Tomasello. The cultural origins of human
+cognition. Harvard university press, 2009.
+32. L. S. Vygotsky. Tool and Symbol in Child Develop-
+ment. In Mind in Society , chapter Tool and Sym-
+bol in Child Development, pages 19–30. Harvard
+University Press, 1978. ISBN 0674576292. doi:
+10.2307/j.ctvjf9vz4.6.
+33. Andrew Whiten and David Erdal. The human
+socio-cognitive niche and its evolutionary origins.
+Philosophical Transactions of the Royal Society B:
+Biological Sciences, 367(1599):2119–2129, 2012.
+

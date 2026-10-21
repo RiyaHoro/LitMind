@@ -1,0 +1,412 @@
+--- CHUNK 1 ---
+Vol. 72 No. 1 (2023) 
+http://philstat.org.ph 
+Mathematical Statistician and Engineering Applications 
+  ISSN: 2094-0343 
+2326-9865 
+1645 
+Research Paper Based on Artifial Intelligence Chatbot 
+1Zaira Zaid 
+M.Tech Scholar 
+Jaipur National University Jaipur 
+2Sachin Jain 
+Assistant Professor 
+Jaipur National University Jaipur 
+3Dr. Blessy Thankachan 
+Associate Professor 
+JECRC University 
+Jaipur 
+Article Info 
+Page Number: 1645-1652 
+ Publication Issue: 
+Vol. 72 No. 1 (2023) 
+ 
+ 
+ 
+ 
+ 
+ 
+Article History 
+Article Received: 15 October 2022 
+Revised: 24 November 2022 
+Accepted: 18 December 2022 
+ 
+Abstract 
+A chat-bot is a piece of software designed to simulate human -to-computer 
+communication through  the use of natural language. Chat -bots converse 
+with customers in a conversation based on human  input and provide 
+customer service. Even though they are actually conversing with a 
+machine, it  gives the user the impression that they are speaking with a
+
+--- CHUNK 2 ---
+customer service. Even though they are actually conversing with a 
+machine, it  gives the user the impression that they are speaking with a 
+human. The chat bot programme enables students to learn about the college 
+admissions process from any location with an internet connection and to 
+get prompt responses. This chatbot system lessens the workload of the 
+admission process department by giving the necessary information to the 
+students or parents, as well as the  department's workload  to continue to 
+answer all of the questions of the students. 
+Keywords: Chat-bot, Conversational search, Node.js, HTML, CSS, 
+JavaScript, NPM, Enquiry, Response, Query. 
+Introduction 
+In especially on mobile platforms, artificial intelligence (A.I.) has gained appeal for 
+simulating conversations between bots and humans. It's common practise to develop new 
+services and applications using open data. Government Open Data websites, which increase
+
+--- CHUNK 3 ---
+simulating conversations between bots and humans. It's common practise to develop new 
+services and applications using open data. Government Open Data websites, which increase 
+openness, let the  general public keep tabs on events and exert control over how government 
+agencies behave,  continue to be the main sources of open data. Access to open data is 
+anticipated to increase public awareness and citizen involvement. 
+Software with a conversational interface is known as a chat -bot. One use for chat -bots in  
+conversational search is to give users access to a database or other information source.  A 
+piece of  software called a chat -bot aids in the organic growth of a discussion with a user 
+access to a database  or other information source. Artifial Intelligence is ca pable of 
+comprehending user questions and  uncertainties and responding to them appropriately. They 
+Vol. 72 No. 1 (2023) 
+http://philstat.org.ph 
+Mathematical Statistician and Engineering Applications
+
+--- CHUNK 4 ---
+comprehending user questions and  uncertainties and responding to them appropriately. They 
+Vol. 72 No. 1 (2023) 
+http://philstat.org.ph 
+Mathematical Statistician and Engineering Applications 
+  ISSN: 2094-0343 
+2326-9865 
+1646 
+are developed using the AI Markup  Language for interacting or speaking with the user. A 
+different name for chat -bots is answering engines. This application o perates in a very simple 
+manner because the knowledge has already been  pre-programmed. Compared to traditional 
+graphical interfaces, chat-bots have a number of benefits and associated difficulties: 
+– Particularly in compared to custom  visualisations, lightweight and inexpensive to 
+implement; 
+- Engaging and intuitive, requiring minimal user training. 
+Related Work 
+Chat-bots were developed as an alternate interface that may deliver a more engaging and 
+user- friendly experience while also acting as a useful information access point to structured
+
+--- CHUNK 5 ---
+Related Work 
+Chat-bots were developed as an alternate interface that may deliver a more engaging and 
+user- friendly experience while also acting as a useful information access point to structured 
+data sources, such as knowledge graphs and Open Data repositories [2, 6, 7]. For instance, the 
+DBpedia chat-bot's 
+[1] reliance on a small number of pre -defined rules hinders it from performing a more in -
+depth query analysis, necessitates ongoing technical work, and makes it challenging to scale 
+and adapt to  new conversational patterns. The strategy we outline in this work makes use of 
+machine learning models, which may be continuously enhanced  by learning  from end-user 
+interactions. We 
+demonstrate how specific semantics, such as geographic entity (location) annotations, can 
+help machine-learning-based dialogue systems understand natural language. 
+As it has previously been demonstrated to heavily rely on the geographic  dimensions to
+
+--- CHUNK 6 ---
+help machine-learning-based dialogue systems understand natural language. 
+As it has previously been demonstrated to heavily rely on the geographic  dimensions to  
+enable effective search and discovery, Open Data makes a perfect use case for the integration 
+of the  spatial linked data source. Utilising these discoveries, we show how semantic geo -
+information linked  data sources can improve user experienc e when used with automated 
+dialogue systems. Our study is  a continuation of the Open Data chat -bot architectures that 
+were previously suggested. The primary distinction between this architecture and the one that 
+was previously suggested [6] is the support for dataset discovery capabilities that goes 
+beyond conversational search to enable conversational  browsing of the underlying data 
+structures. The system's intent detecting component initiates the mode changeover. 
+Similar to the chat-bot for geo-search and visualisation developed by Heil and Neumaier [2],
+
+--- CHUNK 7 ---
+structures. The system's intent detecting component initiates the mode changeover. 
+Similar to the chat-bot for geo-search and visualisation developed by Heil and Neumaier [2], 
+our implementation also makes use of the outcomes of the semantic annotation approach 
+suggested by Neumaier et al. By using the user's natural language input to build a supervised 
+model for intent detection and entity recognition, we advance the situation. 
+Chat-bot Architecture 
+The Rasa framework serves as the foundation for our architecture design and offers an open -
+source Python library that implements a number of models for training specialised  dialogue 
+systems. The chat-bot architecture combines many parts into a single processing pipeline that 
+receives a user  input and generates a response. The major steps of the processing pipeline 
+across the components are shown in figure. 
+Vol. 72 No. 1 (2023) 
+http://philstat.org.ph 
+Mathematical Statistician and Engineering Applications 
+  ISSN: 2094-0343
+
+--- CHUNK 8 ---
+across the components are shown in figure. 
+Vol. 72 No. 1 (2023) 
+http://philstat.org.ph 
+Mathematical Statistician and Engineering Applications 
+  ISSN: 2094-0343 
+2326-9865 
+1647 
+ 
+Message Interpretation 
+Entity Identification. Topical keywords and geo-entities are two sorts of entities that our 
+proof-of- concept prototype can identify. Entity mention extraction, the first  stage, is an  
+example of the sequence labelling  task [4]. The text of the user's speech is provided as its 
+input in the form of a  word list. After that, a supervised machine learning model called 
+conditional random fields (CRF) is  trained to provide words labels. One of the topic 
+keywords was present in 121 of the sample messages that were used to train the model, while 
+one of the geo -entities was present in 18  examples. Following that, entity mentions are 
+extracted using these labels. A text span that refers to  one of the entities, such as "schools" or
+
+--- CHUNK 9 ---
+one of the geo -entities was present in 18  examples. Following that, entity mentions are 
+extracted using these labels. A text span that refers to  one of the entities, such as "schools" or  
+"Graz," is referred to as a "entity mention." Following that,  relevant datasets from our Open 
+Data repository are retrieved and ranked using entity mentions in  the search query. The pre -
+trained model frequently fails to extract geo -entities that were miss ing from the training 
+dataset, as we discovered. As an alternate unsupervised strategy for entity mention extraction, 
+we created a look -up table that comprises a list of geo -entities in order to  address this 
+problem. The message interpretation module contains separate machine learning  models for 
+the purposes of entity recognition and intent categorization. To train these models, 250  
+sample messages were manually generated. 
+Intent-Classification Support vector machine (SVM) classifier was used to train Intent
+
+--- CHUNK 10 ---
+sample messages were manually generated. 
+Intent-Classification Support vector machine (SVM) classifier was used to train Intent 
+Classification to recognise nine intents: hello, goodbye, add keyword, add location, search, 
+explore, thank you, affirm, and deny. For every one of the intentions, we created  at least six 
+sample texts. 
+Dialogue Management 
+The current discussion state is determined by the sequence of the chosen actions, which is 
+logged. Ten specially created utterance -templates are included in our set of possible actions, 
+along with a unique action to access the database. The dialogue management component gets 
+the entities and the intent identified at the message interpretation stage before and chooses the 
+subsequent action from a list of predefined options. Based on the user's goal and the present
+
+--- CHUNK 11 ---
+Vol. 72 No. 1 (2023) 
+http://philstat.org.ph 
+Mathematical Statistician and Engineering Applications 
+  ISSN: 2094-0343 
+2326-9865 
+1648 
+state of the discourse, a  neural network model that was trained on 14 hand -crafted stories  
+makes this choice. 
+Problem Statement 
+In every company wants their customers to be aware of them so they can sell more goods or 
+secure more projects. Therefore, in the sophisticated world of digital marketing, having a 
+good interactive website is the most fundamental way to accomplish this. However, in today's 
+technologically advanced world, having a website alone is insufficient because it does not 
+contain all the  information and cannot address the clients' questions. Perhaps a comment 
+section is the solution,  but since "time is money," your client won't want to wait too long for 
+your response. Additionally,  you cannot assign humans to answer  all questions 
+simultaneously, 24 hours a day, 7 days a week.
+
+--- CHUNK 12 ---
+your response. Additionally,  you cannot assign humans to answer  all questions 
+simultaneously, 24 hours a day, 7 days a week. 
+Therefore, you require an i ntelligent chat-bot with artificial intelligence technology, not just 
+any chat-bot, for that. 
+Artificial intelligence chat -bots are a type of technology that allow people and machines to  
+communicate naturally. A chat -bot might respond differently to the sa me input provided by 
+the user depending on the topic of the current conversation. By employing our "Intelligent 
+Chat-Bot," you can solve all the problems mentioned above, eliminate the need for workers to 
+perform manual labour, and please your customers. A chat-bot is a typical agent that can have 
+natural language  conversations with operators. There are still some issues with developing 
+data-driven systems  despite the fact that there are several chat -bot platforms presently 
+available because a substantial amount of data is needed for their creation.
+
+--- CHUNK 13 ---
+data-driven systems  despite the fact that there are several chat -bot platforms presently 
+available because a substantial amount of data is needed for their creation. 
+Existing System 
+Many businesses use chat-bots instead of people when it's practical to do so. Systems like that 
+are frequently based on the modes of communication used by ALICE. 
+ALICE: 
+Richard Wallace introduced ALICE in 1995. It makes use of pattern matching and stores the 
+data in  files called AIML, or Artificial Intelligence Mark -up Language. An AIML file was 
+created to contain pattern knowledge for chat-bots and is comparable to an XML file. Default 
+categories, recursive categories, and atomic categories are the three different types  of AIML 
+categories. 
+Atomic classes: is a class of AIML category when a match is exact. 
+<category> 
+<pattern> What is your name</pattern> 
+<template> Hello, I'm Nick.</template> 
+</category>
+
+--- CHUNK 14 ---
+categories. 
+Atomic classes: is a class of AIML category when a match is exact. 
+<category> 
+<pattern> What is your name</pattern> 
+<template> Hello, I'm Nick.</template> 
+</category> 
+If the user enters "What is your name" in the example above, the chatbot will respond, "My 
+Vol. 72 No. 1 (2023) 
+http://philstat.org.ph 
+Mathematical Statistician and Engineering Applications 
+  ISSN: 2094-0343 
+2326-9865 
+1649 
+name is  Nick." Typical categories: is a form of AIML category where any input can be 
+matched using a wild character like *. 
+<category> 
+<pattern> What is *?</pattern> 
+<templates> This is me. </templates> 
+</category> 
+If ALICE is unable to solve the problem using the first category, it will go on to the second. 
+In this scenario, if a user enters "What is a name?" ALICE will search for a match  with the 
+wild character and return the answer. 
+AIML categories known as recursive categories employ special tags to allude to recursion in
+
+--- CHUNK 15 ---
+wild character and return the answer. 
+AIML categories known as recursive categories employ special tags to allude to recursion in 
+order to persuade the user to be more detailed. 
+<category> 
+<pattern> Do you understand what a * is?</pattern> 
+<templates> >This is me. </templates> 
+<srai> What is star</srai> 
+</category> 
+In this case the wild character * is used to reduce the inputsubmitted by the user. If the user 
+submits “Do you know what the time is” then this becomes “What is the time”. The following 
+figure gives an example of aconversation between a human and ALICE:
+
+--- CHUNK 16 ---
+Vol. 72 No. 1 (2023) 
+http://philstat.org.ph 
+Mathematical Statistician and Engineering Applications 
+  ISSN: 2094-0343 
+2326-9865 
+1650 
+A sample conversation with ALICE (Shawar and Atwell, 2007) 
+Results and Discussion 
+The proposed system was tested and found to be workable and efficient. It conserves both the 
+owners and employees' time and labour. Additionally, it saves staff members the time and 
+effort of  making a special trip to the restaurant store to make a query. In this project, we 
+created a chat -bot that would interact with users and p rovide all relevant information 
+regarding food orders. The  owner and customer can communicate with a chat -bot. Any 
+questions that are not answered by the chat-bot will be updated by the owner admin. 
+Future Scope 
+We can make our inquiry chat -bot more engag ing in a variety of languages for people in 
+various locations when we upgrade it in the future. For those who are unable to read or type,
+
+--- CHUNK 17 ---
+Future Scope 
+We can make our inquiry chat -bot more engag ing in a variety of languages for people in 
+various locations when we upgrade it in the future. For those who are unable to read or type, 
+we can add  speech-based questions and answers. The next -generation chat -bot should offer 
+the customer's problem both an answer and a solution. 
+Conclusion 
+This chat-bot's primary goal was to create an algorithm that could recognise user inquiries or  
+requests and provide the appropriate response. To create a database where all pertinent  
+information is kept and linked with inquiries as they are made. We were successful in 
+creating a  chat-bot that allows students or parents to ask questions about the application 
+process, course information, eligibility requirements, or admission. The chat-bot evaluates the 
+query and responds appropriately. 
+Demonstration plan we will involve conference attendees in the assessment of our system,
+
+--- CHUNK 18 ---
+query and responds appropriately. 
+Demonstration plan we will involve conference attendees in the assessment of our system, 
+which is intended to be a user research. The aim is to use our chat -bot interface to identify 
+pertinent datasets on a broad topic, like Nature. At the  conclusion, the participants will be 
+urged to complete a brief questionnaire that asks them to rate their overall experience, offer 
+any extra feedback, and list any wishes they may have. 
+References. 
+1. Athreya, R.G., Ngomo, A.N., Usbeck , R. Pages. 143 –146 (2018) in Companion of the 
+The Web Conference 2018 on The Web Conference 2018, WWW 2018, Lyon, France, 
+April 23–27, 2018. 
+2. Reboting.com: Heil, E., Neumaier, S. In the direction of geo-search and visualisation of 
+open data in Austria. Her aklion, Crete, Greece, June 3 –7, 2018, the Semantic Web: 
+ESWC 2018 Satellite Events, pp. 105–110 (2018) 
+3. Simperl, E., Tennison, J., Koesten, L., and Kacprzak: Characterising dataset search
+
+--- CHUNK 19 ---
+ESWC 2018 Satellite Events, pp. 105–110 (2018) 
+3. Simperl, E., Tennison, J., Koesten, L., and Kacprzak: Characterising dataset search 
+queries. Pages. 1485 –1488 in Companion of the The Web Conference 201 8, WWW 
+2018, Lyon, France, April 23–27, 2018. 
+4. Conditional random fields: Probabilistic models for segmenting and labelling sequence 
+data by Lafferty, J.D., McCallum, A., and Pereira, F.C.N. pp. 282 -289 in Proceedings 
+Vol. 72 No. 1 (2023) 
+http://philstat.org.ph 
+Mathematical Statistician and Engineering Applications 
+  ISSN: 2094-0343 
+2326-9865 
+1651 
+of the 18th International Conference on  Machine Learning (ICML 2001), Williams 
+College, Williamstown, Massachusetts, USA, June 28–July 1, 2001. 
+5. Geo-semantic tagging of open data by Neumaier, Savenkov, and Polleres. pp. 9 -20 
+(2018) in Proceedings of the 14th International Conference on Semantic Systems, 
+SEMANTICS 2018, Vienna, Austria.
+
+--- CHUNK 20 ---
+5. Geo-semantic tagging of open data by Neumaier, Savenkov, and Polleres. pp. 9 -20 
+(2018) in Proceedings of the 14th International Conference on Semantic Systems, 
+SEMANTICS 2018, Vienna, Austria. 
+6. Talking open data by S. Neumaier, V. Savenkov, and S. Vakulenko. Pages 132 -136 of 
+The Semantic Web: ESWC 2017 Satellite Events, Portoroz, Slovenia, May 28 –June 1, 
+2017, are available. 
+7. Porreca, S., Leotta, F., Mecel la, M., Vassos, and Catarci: Using chatbots to access 
+public data. International Workshops on Current Trends in Web Engineering 2017, 
+Rome, Italy, June 5-8, 2017, pp. 156–165. 
+8. 2018's "Problem Solving Chat bot for DataStructures" by Ankil Shah, Bhargav Jain , 
+Bhavin Agrawal, Saurabh Jain, and Simon Shim was published by the IEEE. 
+9. Automatic Railway Track Inspection for early warning using Real time image 
+processing with GPS X Verma, A Jeewan, S Jain, M Vats 
+10. International Journal on Recent and Innovation Trends in Computing and … 1
+ 2015
+
+--- CHUNK 21 ---
+processing with GPS X Verma, A Jeewan, S Jain, M Vats 
+10. International Journal on Recent and Innovation Trends in Computing and … 1
+ 2015 
+11. Development of Top K -Association Rule Mining for Discovering pattern in Medical 
+Dataset A Sharma, A Sangwan, B Thankchan, S Jain, V Singh, S Saurabh 
+12. European Journal of Molecular & Clinical Medicine 7 (4), 2020 1  
+13. Summarizing Text Using Lexical Chains P Jain, S Jain International Journal on Recent 
+and Innovation Trends in Computing and … 1  
+14. A Neoteric Strategy of Hill Cipher for Analysis of Degenerate Matrices KeyS Jain, MK 
+Arya 
+15. Journal of Algebraic Statistics 13 (1), 194-198  2022 
+16. ARTIFICIAL INTELLIGENCE IN EDUCATION S Jain Purakala Vol 31 Issue 1 31 
+(1), 16-25  2022 
+17. Detection in Wireless Network S Jain International Journal of Research and Analytical 
+Reviews (IJRAR) 9 (2), 643-646,2022 
+18. AREVIEW PAPER CLOUD COMPUTINGSJ Amita Kashyap Purakala Vol 31 Issue 1 
+31 (1), 13-15  2022
+
+--- CHUNK 22 ---
+Reviews (IJRAR) 9 (2), 643-646,2022 
+18. AREVIEW PAPER CLOUD COMPUTINGSJ Amita Kashyap Purakala Vol 31 Issue 1 
+31 (1), 13-15  2022 
+19. THE ROLE OF CRYPTOGRAPHY TOWARDS NETWORK SECURITY SKD, Mr. 
+Sachin Jain Purakala Vol 31 Issue 1 31 (1), 1-5  2022 
+20. Study of Existing IOT Frameworks for Building Future Automation System and 
+Connected Object s, AK Sachin Jain,Vikram Singh, The Ciência & Engenharia - 
+Science & Engineering Journal 10 (Issue: 1), 19-23  2022 
+21. Improving the performance of heterogeneous hadoop clusters using the map reduce big 
+data algorithm, SG Sachin Jain, Amita Kashyap, Sheetal Kumar Dixit 
+22. International Journal of Advanced Science and Technology 28 (2019), 740-748 
+ 2019 
+23. Comparative Analysis of E-Governance Models SJ, D Bandil 
+24. International Journal on Future Revolution in Computer Science …  2019 
+25. A SURVEY OF CLOUD COMPUTING'S LIMIT ATIONS AND POTENTIAL 
+SOLUTION KS Mr Sachin Jain Purakala Vol 31 Issue 1, 2022 31 (1), 26-30
+
+--- CHUNK 23 ---
+25. A SURVEY OF CLOUD COMPUTING'S LIMIT ATIONS AND POTENTIAL 
+SOLUTION KS Mr Sachin Jain Purakala Vol 31 Issue 1, 2022 31 (1), 26-30   
+Vol. 72 No. 1 (2023) 
+http://philstat.org.ph 
+Mathematical Statistician and Engineering Applications 
+  ISSN: 2094-0343 
+2326-9865 
+1652 
+26. Framework for ATM Card & Safety: Preventing ATM Transaction from Hackers and 
+Frauds D Malviya, S Jain 
+27. International Journal on Recent and Innovation Trends in Computing and …   
+28. An Integrated Approach For Energy Efficient Routing Over Ad -Hoc Network Using 
+Soft Computing A Kumar, S Jain, M Vats International Journal on Recent and 
+Innovation Trends in Computing and …   
+29. Reliability Assessment and Feasibility Study of S oftware Metrics in Object Oriented 
+Environment S Jain, SK Dixit, S Gautam, S Sharma, J Qureshi, V Singh 
+30. Benchmark Classification of Handwritten Dataset by New Operator R Ranjan, M Vats, 
+S Jain International Journal on Recent and Innovation Trends in Computing and …
+

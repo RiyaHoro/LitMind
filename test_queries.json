@@ -1,0 +1,42 @@
+[
+  {
+    "query": "What is the main objective of the chatbot system designed for college admissions?",
+    "expected_source": "2395-Article Text-4175-1-10-20230525_chunks.txt"
+  },
+  {
+    "query": "Which machine learning classifier was used for Intent-Classification in the college chatbot architecture?",
+    "expected_source": "2395-Article Text-4175-1-10-20230525_chunks.txt"
+  },
+  {
+    "query": "How does human-like intelligence depend on ecological niches and socio-cultural environments?",
+    "expected_source": "Artificial Intelligence 2_chunks.txt"
+  },
+  {
+    "query": "What is the cognitive tradeoff hypothesis proposed by Tetsuro Matsuzawa regarding working memory?",
+    "expected_source": "Artificial Intelligence 2_chunks.txt"
+  },
+  {
+    "query": "What are the logicist, emergentist, and universalist approaches to Artificial General Intelligence?",
+    "expected_source": "artificial intelligence_chunks.txt"
+  },
+  {
+    "query": "What is the motto of the Royal Society and how does it relate to constructing an Artificial Scientist?",
+    "expected_source": "artificial intelligence_chunks.txt"
+  },
+  {
+    "query": "What are the key criticisms and alternatives to the Turing test for measuring machine intelligence?",
+    "expected_source": "Machine Intelligence_chunks.txt"
+  },
+  {
+    "query": "How is universal intelligence formally defined using Kolmogorov complexity and reinforcement learning?",
+    "expected_source": "Machine Intelligence_chunks.txt"
+  },
+  {
+    "query": "How is the PRISMA framework utilized in the systematic literature review of AI in medical imaging?",
+    "expected_source": "Template_1 1 (5)_chunks.txt"
+  },
+  {
+    "query": "What databases were selected for the systematic literature search on AI in medical imaging?",
+    "expected_source": "Template_1 1 (5)_chunks.txt"
+  }
+]
